@@ -7,14 +7,15 @@ on:
   workflow_dispatch:  # manual trigger
 
 permissions:
-  contents: write  # for committing updated feed
+  contents: write  # allows committing updated feed
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
       # 1️⃣ Checkout the repo
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
       # 2️⃣ Set up Python 3
       - name: Set up Python
@@ -30,9 +31,8 @@ jobs:
 
       # 4️⃣ Run the fetcher
       - name: Run threat intel fetcher
-        id: fetcher
         run: |
-          set -e  # Fail immediately if fetcher fails
+          set -e  # stop immediately if fetcher fails
           python fetcher/fetch_normalized_auto.py
 
       # 5️⃣ Commit updated feed if changed
