@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Threat Intel Feed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1 { text-align: center; margin-bottom: 30px; }
+        h2 { border-bottom: 1px solid #333; padding-bottom: 5px; margin-top: 30px; }
+        .feed-item {
+            margin: 15px 0;
+            padding: 10px;
+            border-bottom: 1px solid #333;
+        }
+        .feed-item:last-child {
+            border-bottom: none;
+        }
+        .feed-title { font-weight: bold; font-size: 1.1em; }
+        .feed-summary { margin: 5px 0; }
+        .feed-meta { font-size: 0.85em; color: #aaa; }
+        a { color: #1e90ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Threat Intel Feed</h1>
+    {% for category, feeds in grouped.items() %}
+        <h2>{{ category }}</h2>
+        {% for feed in feeds %}
+            <div class="feed-item">
+                <div class="feed-title"><a href="{{ feed.link }}" target="_blank">{{ feed.title }}</a></div>
+                <div class="feed-summary">{{ feed.summary }}</div>
+                <div class="feed-meta">{{ feed.site }} | Published: {{ feed.published }}</div>
+            </div>
+        {% endfor %}
+    {% endfor %}
+</div>
+</body>
+</html>
+

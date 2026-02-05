@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Cyber Success Trifecta: Education, Certifications &amp; Experience",
+    "summary": "Colonel Georgeo Xavier Pulikkathara, CISO at iMerit discusses the importance of fundamentals, continuous learning, and human ingenuity in the face of AI-driven cybersecurity evolution.",
+    "published": "Thu, 05 Feb 2026 14:00:00 GMT",
+    "link": "https://www.darkreading.com/cybersecurity-operations/the-trifecta-of-cyber-success-education-certifications-and-experience",
+    "category": "General",
+    "site": "Dark Reading"
+  },
+  {
+    "title": "Protests Don't Impede Iranian Spying on Expats, Syrians, Israelis",
+    "summary": "Iranian threat actors have been stealing credentials from people of interest across the Middle East, using spear-phishing and social engineering.",
+    "published": "Thu, 05 Feb 2026 07:00:00 GMT",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/iran-spies-expats-syrians-israelis",
+    "category": "General",
+    "site": "Dark Reading"
+  },
+  {
+    "title": "Ransomware Gang Goes Full 'Godfather' With Cartel",
+    "summary": "DragonForce is taking cues from organized crime, emphasizing cooperation and coordination among ransomware gangs.",
+    "published": "Wed, 04 Feb 2026 22:14:19 GMT",
+    "link": "https://www.darkreading.com/cyber-risk/ransomware-gang-full-godfather-cartel",
+    "category": "General",
+    "site": "Dark Reading"
+  },
+  {
+    "title": "CISA Makes Unpublicized Ransomware Updates to KEV Catalog",
+    "summary": "A third of the \"flipped\" CVEs affected network edge devices, leading one researcher to conclude, \"Ransomware operators are building playbooks around your perimeter.\"",
+    "published": "Wed, 04 Feb 2026 21:48:57 GMT",
+    "link": "https://www.darkreading.com/threat-intelligence/cisa-hidden-ransomware-updates-kev-catalog",
+    "category": "General",
+    "site": "Dark Reading"
+  },
+  {
+    "title": "Attackers Use Windows Screensavers to Drop Malware, RMM Tools",
+    "summary": "By tapping the unusual .scr file type, attackers leverage \"executables that don't always receive executable-level controls,\" one researcher noted.",
+    "published": "Wed, 04 Feb 2026 21:06:28 GMT",
+    "link": "https://www.darkreading.com/application-security/attackers-use-screensavers-drop-malware-rmm-tools",
+    "category": "General",
+    "site": "Dark Reading"
+  },
+  {
+    "title": "AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack",
+    "summary": "The distributed denial-of-service (DDoS) botnet known as AISURU/Kimwolf has been attributed to a record-setting attack that peaked at 31.4 Terabits per second (Tbps) and lasted only 35 seconds.\nCloudflare, which automatically detected and mitigated the activity, said it's part of a growing number of hyper-volumetric HTTP DDoS attacks mounted by the botnet in the fourth quarter of 2025. The",
+    "published": "Thu, 05 Feb 2026 22:55:00 +0530",
+    "link": "https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html",
+    "category": "General",
+    "site": "The Hacker News"
+  },
+  {
+    "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
+    "summary": "This week didn\u2019t produce one big headline. It produced many small signals \u2014 the kind that quietly shape what attacks will look like next.\nResearchers tracked intrusions that start in ordinary places: developer workflows, remote tools, cloud access, identity paths, and even routine user actions. Nothing looked dramatic on the surface. That\u2019s the point. Entry is becoming less visible while impact",
+    "published": "Thu, 05 Feb 2026 18:27:00 +0530",
+    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
+    "category": "General",
+    "site": "The Hacker News"
+  },
+  {
+    "title": "The Buyer\u2019s Guide to AI Usage Control",
+    "summary": "Today\u2019s \u201cAI everywhere\u201d reality is woven into everyday workflows across the enterprise, embedded in SaaS platforms, browsers, copilots, extensions, and a rapidly expanding universe of shadow tools that appear faster than security teams can track. Yet most organizations still rely on legacy controls that operate far away from where AI interactions actually occur. The result is a widening",
+    "published": "Thu, 05 Feb 2026 17:00:00 +0530",
+    "link": "https://thehackernews.com/2026/02/the-buyers-guide-to-ai-usage-control.html",
+    "category": "General",
+    "site": "The Hacker News"
+  },
+  {
+    "title": "Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends",
+    "summary": "The elusive Iranian threat group known as Infy (aka Prince of Persia) has evolved its tactics as part of efforts to hide its tracks, even as it readied new command-and-control (C2) infrastructure coinciding with the end of the widespread internet blackout the regime imposed at the start of January 2026.\n\"The threat actor stopped maintaining its C2 servers on January 8 for the first time since we",
+    "published": "Thu, 05 Feb 2026 15:55:00 +0530",
+    "link": "https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html",
+    "category": "General",
+    "site": "The Hacker News"
+  },
+  {
+    "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+    "summary": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.\nThe flaw, tracked as CVE-2026-25049 (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613 (CVSS score: 9.9), another critical defect that",
+    "published": "Thu, 05 Feb 2026 11:46:00 +0530",
+    "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+    "category": "General",
+    "site": "The Hacker News"
+  },
+  {
+    "title": "Please Don\u2019t Feed the Scattered Lapsus ShinyHunters",
+    "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators\u2026 Read More \u00bb",
+    "published": "Mon, 02 Feb 2026 16:15:16 +0000",
+    "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
+    "category": "Investigative",
+    "site": "Krebs on Security"
+  },
+  {
+    "title": "Who Operates the Badbox 2.0 Botnet?",
+    "summary": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0...",
+    "published": "Mon, 26 Jan 2026 16:11:38 +0000",
+    "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
+    "category": "Investigative",
+    "site": "Krebs on Security"
+  },
+  {
+    "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
+    "summary": "A new Internet-of-Things botnet called Kimwolf has spread to more than 2 million devices, forcing infected systems to participate in massive distributed denial-of-service (DDoS) attacks and to relay other malicious and abusive Internet traffic. Kimwolf's ability to scan the local networks of compromised systems for other IoT devices to infect makes it a sobering threat to organizations, and new re...",
+    "published": "Tue, 20 Jan 2026 18:19:13 +0000",
+    "link": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
+    "category": "Investigative",
+    "site": "Krebs on Security"
+  },
+  {
+    "title": "Patch Tuesday, January 2026 Edition",
+    "summary": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft's most-dire \"critical\" rating, and the company warns that attackers are already exploiting one of the bugs fixed today.",
+    "published": "Wed, 14 Jan 2026 00:47:38 +0000",
+    "link": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
+    "category": "Investigative",
+    "site": "Krebs on Security"
+  },
+  {
+    "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
+    "summary": "Our first story of 2026 revealed how a destructive new botnet called Kimwolf rapidly grew to infect more than two million devices by mass-compromising a vast number of unofficial Android TV streaming boxes. Today, we'll dig through digital clues left behind by the hackers, network operators, and cybercrime services that appear to have benefitted from Kimwolf's spread.",
+    "published": "Thu, 08 Jan 2026 23:23:43 +0000",
+    "link": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
+    "category": "Investigative",
+    "site": "Krebs on Security"
+  },
+  {
+    "title": "Publicly Available Tools Seen in Cyber Incidents Worldwide",
+    "summary": "Summary\n\nThis report is a collaborative research effort by the cyber security authorities of five nations: Australia, Canada, New Zealand, the United Kingdom, and the United States.[1][2][3][4][5]\nIn it we highlight the use of five publicly available tools, which have been used for malicious purposes in recent cyber incidents around the world. The five tools are:\n\nRemote Access Trojan: JBiFrost\nWe...",
+    "published": "Thu, 17 Nov 2022 15:57:05 EST",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-284a",
+    "category": "Government",
+    "site": "CISA Alerts"
+  },
+  {
+    "title": "SamSam Ransomware",
+    "summary": "Summary\n\nThe Department of Homeland Security (DHS) National Cybersecurity and Communications Integration Center (NCCIC) and the Federal Bureau of Investigation (FBI) are issuing this activity alert to inform computer network defenders about SamSam ransomware, also known as MSIL/Samas.A. Specifically, this product shares analysis of vulnerabilities that cyber actors exploited to deploy this ransomw...",
+    "published": "Thu, 17 Nov 2022 15:57:05 EST",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-337a",
+    "category": "Government",
+    "site": "CISA Alerts"
+  },
+  {
+    "title": "DNS Infrastructure Hijacking Campaign",
+    "summary": "Summary\n\nThe National Cybersecurity and Communications Integration Center (NCCIC), part of the Cybersecurity and Infrastructure Security Agency (CISA), is aware of a global Domain Name System (DNS) infrastructure hijacking campaign. Using compromised credentials, an attacker can modify the location to which an organization\u2019s domain name resources resolve. This enables the attacker to redirect user...",
+    "published": "Thu, 17 Nov 2022 15:57:05 EST",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-024a",
+    "category": "Government",
+    "site": "CISA Alerts"
+  },
+  {
+    "title": "New Exploits for Unsecure SAP Systems",
+    "summary": "Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) is issuing this activity alert in response to recently disclosed exploits that target unsecure configurations of SAP components. [1]\n\nTechnical Details\n\nA presentation at the April 2019 Operation for Community Development and Empowerment (OPCDE) cybersecurity conference describes SAP systems with unsecure configurations exposed t...",
+    "published": "Thu, 17 Nov 2022 15:57:05 EST",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-122a",
+    "category": "Government",
+    "site": "CISA Alerts"
+  },
+  {
+    "title": "Microsoft Operating Systems BlueKeep Vulnerability",
+    "summary": "Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) is issuing this Activity Alert to provide information on a vulnerability, known as \u201cBlueKeep,\u201d that exists in the following Microsoft Windows Operating Systems (OSs), including both 32- and 64-bit versions, as well as all Service Pack versions:\n\nWindows 2000\nWindows Vista\nWindows XP\nWindows 7\nWindows Server 2003\nWindows Server 20...",
+    "published": "Thu, 17 Nov 2022 15:57:05 EST",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-168a",
+    "category": "Government",
+    "site": "CISA Alerts"
+  },
+  {
+    "title": "Broken Phishing URLs, (Thu, Feb 5th)",
+    "summary": "For a few days, many phishing emails that landed into my mailbox contain strange URLs. They are classic emails asking you to open a document, verify your pending emails, \u00e2\u20ac\u00a6",
+    "published": "Thu, 05 Feb 2026 08:43:02 GMT",
+    "link": "https://isc.sans.edu/diary/rss/32686",
+    "category": "Research",
+    "site": "SANS Internet Storm Center"
+  },
+  {
+    "title": "Malicious Script Delivering More Maliciousness, (Wed, Feb 4th)",
+    "summary": "Today, I received an interesting email with a malicious attachment. When I had a look at the automatic scan results, it seemed to be a malicious script to create a Chrome Injector to steal data. Because InfoStealers are very common these days, it looked \u00e2\u20ac\u0153legit\u00e2\u20ac\u009d but there was something different. The .bat file looks to be a fork of the one found in many GitHub repositories[1].",
+    "published": "Thu, 05 Feb 2026 07:58:23 GMT",
+    "link": "https://isc.sans.edu/diary/rss/32682",
+    "category": "Research",
+    "site": "SANS Internet Storm Center"
+  },
+  {
+    "title": "ISC Stormcast For Thursday, February 5th, 2026 https://isc.sans.edu/podcastdetail/9796, (Thu, Feb 5th)",
+    "summary": "No description available",
+    "published": "Thu, 05 Feb 2026 02:10:11 GMT",
+    "link": "https://isc.sans.edu/diary/rss/32684",
+    "category": "Research",
+    "site": "SANS Internet Storm Center"
+  },
+  {
+    "title": "ISC Stormcast For Wednesday, February 4th, 2026 https://isc.sans.edu/podcastdetail/9794, (Wed, Feb 4th)",
+    "summary": "No description available",
+    "published": "Wed, 04 Feb 2026 02:00:02 GMT",
+    "link": "https://isc.sans.edu/diary/rss/32680",
+    "category": "Research",
+    "site": "SANS Internet Storm Center"
+  },
+  {
+    "title": "Detecting and Monitoring OpenClaw (clawdbot, moltbot), (Tue, Feb 3rd)",
+    "summary": "Last week, a new AI agent framework was introduced to automate \"live\". It targets office work in particular, focusing on messaging and interacting with systems. The tool has gone viral not so much because of its features, which are similar to those of other agent frameworks, but because of a stream of security oversights in its design.",
+    "published": "Tue, 03 Feb 2026 12:41:53 GMT",
+    "link": "https://isc.sans.edu/diary/rss/32678",
+    "category": "Research",
+    "site": "SANS Internet Storm Center"
+  },
+  {
+    "title": "The Shadow Campaigns: Uncovering Global Espionage",
+    "summary": "In 2025 a threat group compromised government and critical infrastructure in 37 countries, with reconnaissance in 155.\nThe post The Shadow Campaigns: Uncovering Global Espionage appeared first on Unit 42.",
+    "published": "Thu, 05 Feb 2026 11:00:10 +0000",
+    "link": "https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage/",
+    "category": "Research",
+    "site": "Unit 42"
+  },
+  {
+    "title": "Why Smart People Fall For Phishing Attacks",
+    "summary": "Why do successful phishing attacks target our psychology rather than just our software? Discover Unit 42\u2019s latest insights on defeating social engineering and securing your digital life.\nThe post Why Smart People Fall For Phishing Attacks appeared first on Unit 42.",
+    "published": "Wed, 04 Feb 2026 00:00:43 +0000",
+    "link": "https://unit42.paloaltonetworks.com/psychology-of-phishing/",
+    "category": "Research",
+    "site": "Unit 42"
+  },
+  {
+    "title": "Privileged File System Vulnerability Present in a SCADA System",
+    "summary": "We detail our discovery of CVE-2025-0921. This privileged file system flaw in SCADA system Iconics Suite could lead to a denial-of-service (DoS) attack.\nThe post Privileged File System Vulnerability Present in a SCADA System appeared first on Unit 42.",
+    "published": "Fri, 30 Jan 2026 23:00:01 +0000",
+    "link": "https://unit42.paloaltonetworks.com/iconics-suite-cve-2025-0921/",
+    "category": "Research",
+    "site": "Unit 42"
+  },
+  {
+    "title": "Understanding the Russian Cyberthreat to the 2026 Winter Olympics",
+    "summary": "Russia's current isolation from the Olympics may lead to increased cyberthreats targeting the 2026 Winter Games. We discuss the potential threat picture.\nThe post Understanding the Russian Cyberthreat to the 2026 Winter Olympics appeared first on Unit 42.",
+    "published": "Thu, 29 Jan 2026 21:30:47 +0000",
+    "link": "https://unit42.paloaltonetworks.com/russian-cyberthreat-2026-winter-olympics/",
+    "category": "Research",
+    "site": "Unit 42"
+  },
+  {
+    "title": "Happy 9th Anniversary, CTA: A Celebration of Collaboration in Cyber Defense",
+    "summary": "Unit 42 celebrates 9 years of the Cyber Threat Alliance, tracing its journey from a bold idea to a global leader in collaborative cyber defense.\nThe post Happy 9th Anniversary, CTA: A Celebration of Collaboration in Cyber Defense appeared first on Unit 42.",
+    "published": "Sat, 24 Jan 2026 00:00:53 +0000",
+    "link": "https://unit42.paloaltonetworks.com/cta-9th-anniversary/",
+    "category": "Research",
+    "site": "Unit 42"
+  },
+  {
+    "title": "What Security Teams Need to Know About OpenClaw, the AI Super Agent",
+    "summary": "No description available",
+    "published": "Feb 04, 2026 00:00:00-0800",
+    "link": "https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/",
+    "category": "Vendor",
+    "site": "CrowdStrike Blog"
+  },
+  {
+    "title": "CrowdStrike Named a Customers&rsquo; Choice in 2026 Gartner Peer Insights&trade; Voice of the Customer for Application Security Posture Management Tools",
+    "summary": "No description available",
+    "published": "Feb 03, 2026 00:00:00-0800",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-customers-choice-2026-gartner-peer-insights-voice-of-the-customer-for-aspm/",
+    "category": "Vendor",
+    "site": "CrowdStrike Blog"
+  },
+  {
+    "title": "CrowdStrike Falcon Scores Perfect 100% in SE Labs&rsquo; Most Challenging Ransomware Test",
+    "summary": "No description available",
+    "published": "Feb 03, 2026 00:00:00-0800",
+    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-scores-100-percent-in-se-labs-ransomware-test/",
+    "category": "Vendor",
+    "site": "CrowdStrike Blog"
+  },
+  {
+    "title": "Secure AI with CrowdStrike: Real-World Stories of Protecting AI Workloads and Data",
+    "summary": "No description available",
+    "published": "Feb 02, 2026 00:00:00-0800",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-three-companies-secure-ai-with-crowdstrike/",
+    "category": "Vendor",
+    "site": "CrowdStrike Blog"
+  },
+  {
+    "title": "How Agentic Tool Chain Attacks Threaten AI Agent Security",
+    "summary": "No description available",
+    "published": "Jan 30, 2026 00:00:00-0800",
+    "link": "https://www.crowdstrike.com/en-us/blog/how-agentic-tool-chain-attacks-threaten-ai-agent-security/",
+    "category": "Vendor",
+    "site": "CrowdStrike Blog"
+  }
+]

@@ -1,0 +1,38 @@
+# Threat Intelligence Feed Sources
+# Categories: General, Investigative, Government, Research, Vendor
+
+- name: Dark Reading
+  url: https://www.darkreading.com/rss.xml
+  category: General
+
+- name: The Hacker News
+  url: https://thehackernews.com/feeds/posts/default
+  category: General
+
+- name: Krebs on Security
+  url: https://krebsonsecurity.com/feed/
+  category: Investigative
+
+- name: CISA Alerts
+  url: https://www.cisa.gov/uscert/ncas/alerts.xml
+  category: Government
+
+- name: SANS Internet Storm Center
+  url: https://isc.sans.edu/rssfeed.xml
+  category: Research
+
+- name: Unit 42
+  url: https://unit42.paloaltonetworks.com/feed/
+  category: Research
+
+- name: CrowdStrike Blog
+  url: https://www.crowdstrike.com/blog/feed/
+  category: Vendor
+
+- name: Proofpoint Blog
+  url: https://www.proofpoint.com/us/blog/threat-insight/feed
+  category: Vendor
+
+
+
+
