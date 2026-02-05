@@ -30,7 +30,6 @@ python app.py
 Open your browser at http://localhost:5052
 
 <img width="1907" height="1009" alt="Screenshot from 2026-02-05 12-32-43" src="https://github.com/user-attachments/assets/80a3472b-8cfd-47d5-874f-bd253068358d" />
-![Screenshot from 2026-02-05 12-32-49](https://github.com/user-attachments/assets/b011c98a-6f1a-402c-81f8-4bc4bf64fddd)
 <img width="1920" height="1008" alt="Screenshot from 2026-02-05 12-32-49" src="https://github.com/user-attachments/assets/8718d23c-ca08-4e22-a11b-6b391609ed74" />
 <img width="1920" height="1008" alt="Screenshot from 2026-02-05 12-32-52" src="https://github.com/user-attachments/assets/8d1d2599-0b56-4ad6-bdf1-2d84a2f83337" />
 <img width="1920" height="1010" alt="Screenshot from 2026-02-05 12-32-56" src="https://github.com/user-attachments/assets/32d8a4ef-99a2-4d76-8860-856aaecb3813" />
