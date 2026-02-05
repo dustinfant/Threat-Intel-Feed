@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Data (optional)
+data/feed.json
+data/feed_normalized.json
+
+# OS
+.DS_Store
+
