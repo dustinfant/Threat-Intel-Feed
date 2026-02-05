@@ -1,282 +1,247 @@
 [
   {
-    "title": "Cyber Success Trifecta: Education, Certifications &amp; Experience",
-    "summary": "Colonel Georgeo Xavier Pulikkathara, CISO at iMerit discusses the importance of fundamentals, continuous learning, and human ingenuity in the face of AI-driven cybersecurity evolution.",
-    "published": "Thu, 05 Feb 2026 14:00:00 GMT",
-    "link": "https://www.darkreading.com/cybersecurity-operations/the-trifecta-of-cyber-success-education-certifications-and-experience",
-    "category": "General",
-    "site": "Dark Reading"
-  },
-  {
-    "title": "Protests Don't Impede Iranian Spying on Expats, Syrians, Israelis",
-    "summary": "Iranian threat actors have been stealing credentials from people of interest across the Middle East, using spear-phishing and social engineering.",
-    "published": "Thu, 05 Feb 2026 07:00:00 GMT",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/iran-spies-expats-syrians-israelis",
-    "category": "General",
-    "site": "Dark Reading"
-  },
-  {
-    "title": "Ransomware Gang Goes Full 'Godfather' With Cartel",
-    "summary": "DragonForce is taking cues from organized crime, emphasizing cooperation and coordination among ransomware gangs.",
-    "published": "Wed, 04 Feb 2026 22:14:19 GMT",
-    "link": "https://www.darkreading.com/cyber-risk/ransomware-gang-full-godfather-cartel",
-    "category": "General",
-    "site": "Dark Reading"
-  },
-  {
-    "title": "CISA Makes Unpublicized Ransomware Updates to KEV Catalog",
-    "summary": "A third of the \"flipped\" CVEs affected network edge devices, leading one researcher to conclude, \"Ransomware operators are building playbooks around your perimeter.\"",
-    "published": "Wed, 04 Feb 2026 21:48:57 GMT",
-    "link": "https://www.darkreading.com/threat-intelligence/cisa-hidden-ransomware-updates-kev-catalog",
-    "category": "General",
-    "site": "Dark Reading"
-  },
-  {
-    "title": "Attackers Use Windows Screensavers to Drop Malware, RMM Tools",
-    "summary": "By tapping the unusual .scr file type, attackers leverage \"executables that don't always receive executable-level controls,\" one researcher noted.",
-    "published": "Wed, 04 Feb 2026 21:06:28 GMT",
-    "link": "https://www.darkreading.com/application-security/attackers-use-screensavers-drop-malware-rmm-tools",
-    "category": "General",
-    "site": "Dark Reading"
-  },
-  {
+    "source": "The Hacker News",
+    "category": "general",
     "title": "AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack",
-    "summary": "The distributed denial-of-service (DDoS) botnet known as AISURU/Kimwolf has been attributed to a record-setting attack that peaked at 31.4 Terabits per second (Tbps) and lasted only 35 seconds.\nCloudflare, which automatically detected and mitigated the activity, said it's part of a growing number of hyper-volumetric HTTP DDoS attacks mounted by the botnet in the fourth quarter of 2025. The",
-    "published": "Thu, 05 Feb 2026 22:55:00 +0530",
     "link": "https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html",
-    "category": "General",
-    "site": "The Hacker News"
+    "summary": "The distributed denial-of-service (DDoS) botnet known as AISURU/Kimwolf has been attributed to a record-setting attack that peaked at 31.4 Terabits per second (Tbps) and lasted only 35 seconds.\nCloudflare, which automatically detected and mitigated the activity, said it's part of a growing number of hyper-volumetric HTTP DDoS attacks mounted by the botnet in the fourth quarter of 2025. The"
   },
   {
+    "source": "The Hacker News",
+    "category": "general",
     "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
-    "summary": "This week didn\u2019t produce one big headline. It produced many small signals \u2014 the kind that quietly shape what attacks will look like next.\nResearchers tracked intrusions that start in ordinary places: developer workflows, remote tools, cloud access, identity paths, and even routine user actions. Nothing looked dramatic on the surface. That\u2019s the point. Entry is becoming less visible while impact",
-    "published": "Thu, 05 Feb 2026 18:27:00 +0530",
     "link": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
-    "category": "General",
-    "site": "The Hacker News"
+    "summary": "This week didn’t produce one big headline. It produced many small signals — the kind that quietly shape what attacks will look like next.\nResearchers tracked intrusions that start in ordinary places: developer workflows, remote tools, cloud access, identity paths, and even routine user actions. Nothing looked dramatic on the surface. That’s the point. Entry is becoming less visible while impact"
   },
   {
-    "title": "The Buyer\u2019s Guide to AI Usage Control",
-    "summary": "Today\u2019s \u201cAI everywhere\u201d reality is woven into everyday workflows across the enterprise, embedded in SaaS platforms, browsers, copilots, extensions, and a rapidly expanding universe of shadow tools that appear faster than security teams can track. Yet most organizations still rely on legacy controls that operate far away from where AI interactions actually occur. The result is a widening",
-    "published": "Thu, 05 Feb 2026 17:00:00 +0530",
+    "source": "The Hacker News",
+    "category": "general",
+    "title": "The Buyer’s Guide to AI Usage Control",
     "link": "https://thehackernews.com/2026/02/the-buyers-guide-to-ai-usage-control.html",
-    "category": "General",
-    "site": "The Hacker News"
+    "summary": "Today’s “AI everywhere” reality is woven into everyday workflows across the enterprise, embedded in SaaS platforms, browsers, copilots, extensions, and a rapidly expanding universe of shadow tools that appear faster than security teams can track. Yet most organizations still rely on legacy controls that operate far away from where AI interactions actually occur. The result is a widening"
   },
   {
+    "source": "The Hacker News",
+    "category": "general",
     "title": "Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends",
-    "summary": "The elusive Iranian threat group known as Infy (aka Prince of Persia) has evolved its tactics as part of efforts to hide its tracks, even as it readied new command-and-control (C2) infrastructure coinciding with the end of the widespread internet blackout the regime imposed at the start of January 2026.\n\"The threat actor stopped maintaining its C2 servers on January 8 for the first time since we",
-    "published": "Thu, 05 Feb 2026 15:55:00 +0530",
     "link": "https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html",
-    "category": "General",
-    "site": "The Hacker News"
+    "summary": "The elusive Iranian threat group known as Infy (aka Prince of Persia) has evolved its tactics as part of efforts to hide its tracks, even as it readied new command-and-control (C2) infrastructure coinciding with the end of the widespread internet blackout the regime imposed at the start of January 2026.\n\"The threat actor stopped maintaining its C2 servers on January 8 for the first time since we"
   },
   {
+    "source": "The Hacker News",
+    "category": "general",
     "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
-    "summary": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.\nThe flaw, tracked as CVE-2026-25049 (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613 (CVSS score: 9.9), another critical defect that",
-    "published": "Thu, 05 Feb 2026 11:46:00 +0530",
     "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
-    "category": "General",
-    "site": "The Hacker News"
+    "summary": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.\nThe flaw, tracked as CVE-2026-25049 (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613 (CVSS score: 9.9), another critical defect that"
   },
   {
-    "title": "Please Don\u2019t Feed the Scattered Lapsus ShinyHunters",
-    "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators\u2026 Read More \u00bb",
-    "published": "Mon, 02 Feb 2026 16:15:16 +0000",
-    "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
-    "category": "Investigative",
-    "site": "Krebs on Security"
+    "source": "BleepingComputer",
+    "category": "general",
+    "title": "Spain's Ministry of Science shuts down systems after breach claims",
+    "link": "https://www.bleepingcomputer.com/news/security/spains-ministry-of-science-shuts-down-systems-after-breach-claims/",
+    "summary": "Spain's Ministry of Science (Ministerio de Ciencia) announced a partial shutdown of its IT systems, affecting several citizen- and company-facing services. [...]"
   },
   {
-    "title": "Who Operates the Badbox 2.0 Botnet?",
-    "summary": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0...",
-    "published": "Mon, 26 Jan 2026 16:11:38 +0000",
-    "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
-    "category": "Investigative",
-    "site": "Krebs on Security"
+    "source": "BleepingComputer",
+    "category": "general",
+    "title": "Ransomware gang uses ISPsystem VMs for stealthy payload delivery",
+    "link": "https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ispsystem-vms-for-stealthy-payload-delivery/",
+    "summary": "Ransomware operators are hosting and delivering malicious payloads at scale by abusing virtual machines (VMs) provisioned by ISPsystem, a legitimate virtual infrastructure management provider. [...]"
   },
   {
-    "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
-    "summary": "A new Internet-of-Things botnet called Kimwolf has spread to more than 2 million devices, forcing infected systems to participate in massive distributed denial-of-service (DDoS) attacks and to relay other malicious and abusive Internet traffic. Kimwolf's ability to scan the local networks of compromised systems for other IoT devices to infect makes it a sobering threat to organizations, and new re...",
-    "published": "Tue, 20 Jan 2026 18:19:13 +0000",
-    "link": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
-    "category": "Investigative",
-    "site": "Krebs on Security"
+    "source": "BleepingComputer",
+    "category": "general",
+    "title": "Microsoft to shut down Exchange Online EWS in April 2027",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-shut-down-exchange-web-services-in-cloud-in-2027/",
+    "summary": "Microsoft announced today that the Exchange Web Services (EWS) API for Exchange Online will be shut down in April 2027, after nearly 20 years. [...]"
   },
   {
-    "title": "Patch Tuesday, January 2026 Edition",
-    "summary": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft's most-dire \"critical\" rating, and the company warns that attackers are already exploiting one of the bugs fixed today.",
-    "published": "Wed, 14 Jan 2026 00:47:38 +0000",
-    "link": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
-    "category": "Investigative",
-    "site": "Krebs on Security"
+    "source": "BleepingComputer",
+    "category": "general",
+    "title": "Italian university La Sapienza goes offline after cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/italian-university-la-sapienza-goes-offline-after-cyberattack/",
+    "summary": "Rome's \"La Sapienza\" university has been targeted by a cyberattack that impacted its IT systems and caused widespread operational disruptions at the educational institute. [...]"
   },
   {
-    "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
-    "summary": "Our first story of 2026 revealed how a destructive new botnet called Kimwolf rapidly grew to infect more than two million devices by mass-compromising a vast number of unofficial Android TV streaming boxes. Today, we'll dig through digital clues left behind by the hackers, network operators, and cybercrime services that appear to have benefitted from Kimwolf's spread.",
-    "published": "Thu, 08 Jan 2026 23:23:43 +0000",
-    "link": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
-    "category": "Investigative",
-    "site": "Krebs on Security"
+    "source": "BleepingComputer",
+    "category": "general",
+    "title": "Romanian oil pipeline operator Conpet discloses cyberattack",
+    "link": "https://www.bleepingcomputer.com/news/security/romanian-oil-pipeline-operator-conpet-discloses-cyberattack-qilin-ransomware/",
+    "summary": "Conpet, Romania's national oil pipeline operator, has disclosed that a cyberattack disrupted its business systems and took down the company's website on Tuesday. [...]"
   },
   {
-    "title": "Publicly Available Tools Seen in Cyber Incidents Worldwide",
-    "summary": "Summary\n\nThis report is a collaborative research effort by the cyber security authorities of five nations: Australia, Canada, New Zealand, the United Kingdom, and the United States.[1][2][3][4][5]\nIn it we highlight the use of five publicly available tools, which have been used for malicious purposes in recent cyber incidents around the world. The five tools are:\n\nRemote Access Trojan: JBiFrost\nWe...",
-    "published": "Thu, 17 Nov 2022 15:57:05 EST",
-    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-284a",
-    "category": "Government",
-    "site": "CISA Alerts"
+    "source": "CISA Alerts",
+    "category": "government",
+    "title": "TP-Link Systems Inc. VIGI Series IP Camera",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-036-01",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-036-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could result in unauthorized users gaining administrative access to affected closed circuit television cameras.</strong></p>\n<p>The following versions of TP-Link Systems Inc. VIGI Series IP Camera are affected:</p>\n<ul>\n<li>VIGI Cx45 Series Models C345, C445 &lt;=3.1.0_Build_250820_Rel.57668n (CVE-2026-0629)</li>\n<li>VIGI Cx55 Series Models C355, C455 &lt;=3.1.0_Build_250820_Rel.58873n (CVE-2026-0629)</li>\n<li>VIGI Cx85 Series Models C385, C485 &lt;=3.0.2_Build_250630_Rel.71279n (CVE-2026-0629)</li>\n<li>VIGI C340S Series &lt;=3.1.0_Build_250625_Rel.65381n (CVE-2026-0629)</li>\n<li>VIGI C540S Series Models C540S, EasyCam C540S &lt;=3.1.0_Build_250625_Rel.66601n (CVE-2026-0629)</li>\n<li>VIGI C540V Series &lt;=2.1.0_Build_250702_Rel.54300n (CVE-2026-0629)</li>\n<li>VIGI C250 Series &lt;=2.1.0_Build_250702_Rel.54301n (CVE-2026-0629)</li>\n<li>VIGI Cx50 Series Models C350, C450 &lt;=2.1.0_Build_250702_Rel.54294n (CVE-2026-0629)</li>\n<li>VIGI Cx20I (1.0) Series Models C220I 1.0, C320I 1.0, C420I 1.0 &lt;=2.1.0_Build_251014_Rel.58331n (CVE-2026-0629)</li>\n<li>VIGI Cx20I (1.20) Series Models C220I 1.20, C320I 1.20, C420I 1.20 &lt;=2.1.0_Build_250701_Rel.44071n (CVE-2026-0629)</li>\n<li>VIGI Cx30I (1.0) Series Models C230I 1.0, C330I 1.0, C430I 1.0 &lt;=2.1.0_Build_250701_Rel.45506n (CVE-2026-0629)</li>\n<li>VIGI Cx30I (1.20) Series Models C230I 1.20, C330I 1.20, C430I 1.20 &lt;=2.1.0_Build_250701_Rel.44555n (CVE-2026-0629)</li>\n<li>VIGI Cx30 (1.0) Series Models C230 1.0, C330 1.0, C430 1.0 &lt;=2.1.0_Build_250701_Rel.46796n (CVE-2026-0629)</li>\n<li>VIGI Cx30 (1.20) Series Models C230 1.20, C330 1.20, C430 1.20 &lt;=2.1.0_Build_250701_Rel.46796n (CVE-2026-0629)</li>\n<li>VIGI Cx40I (1.0) Series Models C240I 1.0, C340I 1.0, C440I 1.0 &lt;=2.1.0_Build_250701_Rel.46003n (CVE-2026-0629)</li>\n<li>VIGI Cx40I (1.20) Series Models C240I 1.20, C340I 1.20, C440I 1.20 &lt;=2.1.0_Build_250701_Rel.45041n (CVE-2026-0629)</li>\n<li>VIGI C230I Mini Series &lt;=2.1.0_Build_250701_Rel.47570n (CVE-2026-0629)</li>\n<li>VIGI C240 1.0 Series &lt;=2.1.0_Build_250701_Rel.48425n (CVE-2026-0629)</li>\n<li>VIGI C340 2.0 Series &lt;=2.1.0_Build_250701_Rel.49304n (CVE-2026-0629)</li>\n<li>VIGI C440 2.0 Series &lt;=2.1.0_Build_250701_Rel.49778n (CVE-2026-0629)</li>\n<li>VIGI C540 2.0 Series &lt;=2.1.0_Build_250701_Rel.50397n (CVE-2026-0629)</li>\n<li>VIGI C540‑4G Series &lt;=2.2.0_Build_250826_Rel.56808n (CVE-2026-0629)</li>\n<li>VIGI Cx40‑W Series Models C340‑W 2.0/2.20, C440‑W 2.0, C540‑W 2.0 &lt;=2.1.1_Build_250717 (CVE-2026-0629)</li>\n<li>VIGI Cx20 Series Models C320, C420 &lt;=2.1.0_Build_250701_Rel.39597n (CVE-2026-0629)</li>\n<li>VIGI InSight Sx45 Series Models S245, S345, S445 &lt;=3.1.0_Build_250820_Rel.57668n (CVE-2026-0629)</li>\n<li>VIGI InSight Sx55 Series Models S355, S455 &lt;=3.1.0_Build_250820_Rel.58873n (CVE-2026-0629)</li>\n<li>VIGI InSight Sx85 Series Models S285, S385 &lt;=3.0.2_Build_250630_Rel.71279n (CVE-2026-0629)</li>\n<li>VIGI InSight Sx45ZI Series Models S245ZI, S345ZI, S445ZI &lt;=1.2.0_Build_250820_Rel.60930n (CVE-2026-0629)</li>\n<li>VIGI InSight Sx85PI Series Models S385PI, S485PI &lt;=1.2.0_Build_250827_Rel.66817n (CVE-2026-0629)</li>\n<li>VIGI InSight S655I Series &lt;=1.1.1_Build_250625_Rel.64224n (CVE-2026-0629)</li>\n<li>VIGI InSight S345‑4G Series &lt;=2.1.0_Build_250725_Rel.36867n (CVE-2026-0629)</li>\n<li>VIGI InSight Sx25 Series Models S225, S325, S425 &lt;=1.1.0_Build_250630_Rel.39597n (CVE-2026-0629)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">CVSS</th>\n<th role=\"columnheader\">Vendor</th>\n<th role=\"columnheader\">Equipment</th>\n<th role=\"columnheader\">Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 8.8</td>\n<td>TP-Link Systems Inc.</td>\n<td>TP-Link Systems Inc. VIGI Series IP Camera</td>\n<td>Improper Authentication</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Commercial Facilities</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>China</li>\n</ul>\n<hr>\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-accordion-toggle-all\" href=\"#\">Expand All +</a></p>\n<div class=\"csaf-accordion-item\">\n<h3><a class=\"csaf-accordion-toggle\" href=\"#\">CVE-2026-0629</a></h3>\n<div class=\"csaf-accordion-content\">\n<p>An authentication bypass in the password recovery feature of the local web interface across multiple VIGI camera models allows an attacker on the LAN to reset the admin password without verification by manipulating client-side state. Attackers can gain full administrative access to the device, compromising configuration and network security.</p>\n<p><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-0629\">View CVE Details</a></p>\n<hr>\n<h4>Affected Products</h4>\n<h5>TP-Link Systems Inc. VIGI Series IP Camera</h5>\n<div class=\"ics-vendor-version-status\">\n<div class=\"ics-vendor\"><strong>Vendor:</strong><br>TP-Link Systems Inc.</div>\n<div class=\"ics-version\"><strong>Product Version:</strong><br>TP-Link Systems Inc. VIGI Cx45 Series Models C345, C445: &lt;=3.1.0_Build_250820_Rel.57668n, TP-Link Systems Inc. VIGI Cx55 Series Models C355, C455: &lt;=3.1.0_Build_250820_Rel.58873n, TP-Link Systems Inc. VIGI Cx85 Series Models C385, C485: &lt;=3.0.2_Build_250630_Rel.71279n, TP-Link Systems Inc. VIGI C340S Series: &lt;=3.1.0_Build_250625_Rel.65381n, TP-Link Systems Inc. VIGI C540S Series Models C540S, EasyCam C540S: &lt;=3.1.0_Build_250625_Rel.66601n, TP-Link Systems Inc. VIGI C540V Series: &lt;=2.1.0_Build_250702_Rel.54300n, TP-Link Systems Inc. VIGI C250 Series: &lt;=2.1.0_Build_250702_Rel.54301n, TP-Link Systems Inc. VIGI Cx50 Series Models C350, C450: &lt;=2.1.0_Build_250702_Rel.54294n, TP-Link Systems Inc. VIGI Cx20I (1.0) Series Models C220I 1.0, C320I 1.0, C420I 1.0: &lt;=2.1.0_Build_251014_Rel.58331n, TP-Link Systems Inc. VIGI Cx20I (1.20) Series Models C220I 1.20, C320I 1.20, C420I 1.20: &lt;=2.1.0_Build_250701_Rel.44071n, TP-Link Systems Inc. VIGI Cx30I (1.0) Series Models C230I 1.0, C330I 1.0, C430I 1.0: &lt;=2.1.0_Build_250701_Rel.45506n, TP-Link Systems Inc. VIGI Cx30I (1.20) Series Models C230I 1.20, C330I 1.20, C430I 1.20: &lt;=2.1.0_Build_250701_Rel.44555n, TP-Link Systems Inc. VIGI Cx30 (1.0) Series Models C230 1.0, C330 1.0, C430 1.0: &lt;=2.1.0_Build_250701_Rel.46796n, TP-Link Systems Inc. VIGI Cx30 (1.20) Series Models C230 1.20, C330 1.20, C430 1.20: &lt;=2.1.0_Build_250701_Rel.46796n, TP-Link Systems Inc. VIGI Cx40I (1.0) Series Models C240I 1.0, C340I 1.0, C440I 1.0: &lt;=2.1.0_Build_250701_Rel.46003n, TP-Link Systems Inc. VIGI Cx40I (1.20) Series Models C240I 1.20, C340I 1.20, C440I 1.20: &lt;=2.1.0_Build_250701_Rel.45041n, TP-Link Systems Inc. VIGI C230I Mini Series: &lt;=2.1.0_Build_250701_Rel.47570n, TP-Link Systems Inc. VIGI C240 1.0 Series: &lt;=2.1.0_Build_250701_Rel.48425n, TP-Link Systems Inc. VIGI C340 2.0 Series: &lt;=2.1.0_Build_250701_Rel.49304n, TP-Link Systems Inc. VIGI C440 2.0 Series: &lt;=2.1.0_Build_250701_Rel.49778n, TP-Link Systems Inc. VIGI C540 2.0 Series: &lt;=2.1.0_Build_250701_Rel.50397n, TP-Link Systems Inc. VIGI C540‑4G Series: &lt;=2.2.0_Build_250826_Rel.56808n, TP-Link Systems Inc. VIGI Cx40‑W Series Models C340‑W 2.0/2.20, C440‑W 2.0, C540‑W 2.0: &lt;=2.1.1_Build_250717, TP-Link Systems Inc. VIGI Cx20 Series Models C320, C420: &lt;=2.1.0_Build_250701_Rel.39597n, TP-Link Systems Inc. VIGI InSight Sx45 Series Models S245, S345, S445: &lt;=3.1.0_Build_250820_Rel.57668n, TP-Link Systems Inc. VIGI InSight Sx55 Series Models S355, S455: &lt;=3.1.0_Build_250820_Rel.58873n, TP-Link Systems Inc. VIGI InSight Sx85 Series Models S285, S385: &lt;=3.0.2_Build_250630_Rel.71279n, TP-Link Systems Inc. VIGI InSight Sx45ZI Series Models S245ZI, S345ZI, S445ZI: &lt;=1.2.0_Build_250820_Rel.60930n, TP-Link Systems Inc. VIGI InSight Sx85PI Series Models S385PI, S485PI: &lt;=1.2.0_Build_250827_Rel.66817n, TP-Link Systems Inc. VIGI InSight S655I Series: &lt;=1.1.1_Build_250625_Rel.64224n, TP-Link Systems Inc. VIGI InSight S345‑4G Series: &lt;=2.1.0_Build_250725_Rel.36867n, TP-Link Systems Inc. VIGI InSight Sx25 Series Models S225, S325, S425: &lt;=1.1.0_Build_250630_Rel.39597n</div>\n<div class=\"ics-status\"><strong>Product Status:</strong><br>known_affected</div>\n</div>\n<div class=\"ics-remediations\">\n<h6>Remediations</h6>\n<p><strong>Mitigation</strong><br>TP-Link Communications strongly recommends that users with affected devices take the following actions:</p>\n<p><strong>Mitigation</strong><br>Download and update to the latest firmware version to fix the vulnerability from the following links.</p>\n<p><strong>Mitigation</strong><br>United States users should visit the TP-Link US Download Center here: https://www.vigi.com/us/support/download/.</p>\n<p><strong>Mitigation</strong><br>Global English users should visit the TP-Link EN Download Center:https://www.vigi.com/es/support/download/.</p>\n<p><strong>Mitigation</strong><br>India users should visit the TP-Link India Download Center:https://www.vigi.com/in/support/download/.</p>\n<p><strong>Mitigation</strong><br>Please visit https://www.tp-link.com/us/support/faq/4906/ for the TP-Link advisory.</p>\n</div>\n<p><strong>Relevant CWE:</strong> <a href=\"https://cwe.mitre.org/data/definitions/287.html\">CWE-287 Improper Authentication</a></p>\n<hr>\n<h4>Metrics</h4>\n<div class=\"csaf-table csaf-metrics-table\">\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">CVSS Version</th>\n<th role=\"columnheader\">Base Score</th>\n<th role=\"columnheader\">Base Severity</th>\n<th role=\"columnheader\">Vector String</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3.1</td>\n<td>8.8</td>\n<td>HIGH</td>\n<td><a href=\"https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H\">CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</a></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n</div>\n<hr>\n<h2>Acknowledgments</h2>\n<ul>\n<li>Arko Dhar of Redinent Innovations reported this vulnerability to CISA</li>\n</ul>\n<hr>\n<h2>Legal Notice and Terms of Use</h2>\n<p>This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp; Use policy (https://www.cisa.gov/privacy-policy).</p>\n<hr>\n<h2>Recommended Practices</h2>\n<p>CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability, such as:</p>\n<p>Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the Internet.</p>\n<p>Locate control system networks and remote devices behind firewalls and isolating them from business networks.</p>\n<p>When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.</p>\n<p>CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.</p>\n<p>CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.</p>\n<p>CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.</p>\n<p>Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.</p>\n<p>Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.</p>\n<p>No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.</p>\n<hr>\n<h2>Revision History</h2>\n<ul>\n<li><strong>Initial Release Date: </strong>2026-02-05</li>\n</ul>\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">Date</th>\n<th role=\"columnheader\">Revision</th>\n<th role=\"columnheader\">Summary</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2026-02-05</td>\n<td>1</td>\n<td>Initial Publication</td>\n</tr>\n</tbody>\n</table>\n<hr>\n<h2>Legal Notice and Terms of Use</h2>\n"
   },
   {
-    "title": "SamSam Ransomware",
-    "summary": "Summary\n\nThe Department of Homeland Security (DHS) National Cybersecurity and Communications Integration Center (NCCIC) and the Federal Bureau of Investigation (FBI) are issuing this activity alert to inform computer network defenders about SamSam ransomware, also known as MSIL/Samas.A. Specifically, this product shares analysis of vulnerabilities that cyber actors exploited to deploy this ransomw...",
-    "published": "Thu, 17 Nov 2022 15:57:05 EST",
-    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa18-337a",
-    "category": "Government",
-    "site": "CISA Alerts"
+    "source": "CISA Alerts",
+    "category": "government",
+    "title": "Mitsubishi Electric MELSEC iQ-R Series",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-036-02",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-036-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability may allow an attacker to read device data or part of a control program from the affected product, write device data in the affected product, or cause a denial-of-service condition on the affected product.</strong></p>\n<p>The following versions of Mitsubishi Electric MELSEC iQ-R Series are affected:</p>\n<ul>\n<li>MELSEC iQ-R Series R08/16/32/120PCPU firmware &lt;=48 (CVE-2025-15080)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">CVSS</th>\n<th role=\"columnheader\">Vendor</th>\n<th role=\"columnheader\">Equipment</th>\n<th role=\"columnheader\">Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9.4</td>\n<td>Mitsubishi Electric</td>\n<td>Mitsubishi Electric MELSEC iQ-R Series</td>\n<td>Improper Validation of Specified Quantity in Input</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>Japan</li>\n</ul>\n<hr>\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-accordion-toggle-all\" href=\"#\">Expand All +</a></p>\n<div class=\"csaf-accordion-item\">\n<h3><a class=\"csaf-accordion-toggle\" href=\"#\">CVE-2025-15080</a></h3>\n<div class=\"csaf-accordion-content\">\n<p>An information disclosure, information tampering, and denial-of-service vulnerability exists in Mitsubishi Electric proprietary protocol communication and SLMP communication used in FA products. An attacker may be able to read device data or part of a control program from the affected product, write device data in the affected product, or cause a denial-of-service condition on the affected product by sending a specially crafted packet containing a specific command to the affected product.</p>\n<p><a href=\"https://www.cve.org/CVERecord?id=CVE-2025-15080\">View CVE Details</a></p>\n<hr>\n<h4>Affected Products</h4>\n<h5>Mitsubishi Electric MELSEC iQ-R Series</h5>\n<div class=\"ics-vendor-version-status\">\n<div class=\"ics-vendor\"><strong>Vendor:</strong><br>Mitsubishi Electric</div>\n<div class=\"ics-version\"><strong>Product Version:</strong><br>Mitsubishi Electric MELSEC iQ-R Series R08/16/32/120PCPU firmware: &lt;=48</div>\n<div class=\"ics-status\"><strong>Product Status:</strong><br>known_affected</div>\n</div>\n<div class=\"ics-remediations\">\n<h6>Remediations</h6>\n<p><strong>Mitigation</strong><br>Mitsubishi Electric recommends users of the affected products follow the procedure below to update firmware version 49 or later. Download the update file for the fixed version, the engineering software for firmware upgrade, and the manual from the download website at https://www.mitsubishielectric.com/fa/download/index.html . For details on updating the firmware, see MELSEC iQ-R Module Configuration Manual \"Appendix 2 Firmware Update Function\".</p>\n<p><strong>Mitigation</strong><br>Mitsubishi Electric recommends the following mitigations to reduce the risk of exploiting this vulnerability: Use a firewall or virtual private network (VPN) block access from untrusted networks and hosts using a firewall. Use the product within a LAN and block access from untrusted networks and hosts through a firewall. Use firewalls, IP filters, and similar controls to minimize connections to the product and prevent access from untrusted networks and hosts. For details on the IP filter function, refer to \"IP Filter\" in section 1.13, Security, of the MELSEC iQ-R Ethernet User's Manual (Application). Restrict physical access to the affected product and its connected LAN.</p>\n<p><strong>Mitigation</strong><br>For specific update instructions and additional details see the Mitsubishi Electric advisory at https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2025-020_en.pdf .</p>\n<p><strong>Mitigation</strong><br>For further information, contact your local Mitsubishi Electric representative at https://www.mitsubishielectric.com/fa/service-support/index.html .</p>\n</div>\n<p><strong>Relevant CWE:</strong> <a href=\"https://cwe.mitre.org/data/definitions/1284.html\">CWE-1284 Improper Validation of Specified Quantity in Input</a></p>\n<hr>\n<h4>Metrics</h4>\n<div class=\"csaf-table csaf-metrics-table\">\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">CVSS Version</th>\n<th role=\"columnheader\">Base Score</th>\n<th role=\"columnheader\">Base Severity</th>\n<th role=\"columnheader\">Vector String</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3.1</td>\n<td>9.4</td>\n<td>CRITICAL</td>\n<td><a href=\"https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H\">CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H</a></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n</div>\n<hr>\n<h2>Acknowledgments</h2>\n<ul>\n<li>Mitsubishi Electric reported this vulnerability to CISA</li>\n</ul>\n<hr>\n<h2>Legal Notice and Terms of Use</h2>\n<p>This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp; Use policy (https://www.cisa.gov/privacy-policy).</p>\n<hr>\n<h2>Recommended Practices</h2>\n<p>CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability. CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.</p>\n<p>CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.</p>\n<p>CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.</p>\n<p>Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.</p>\n<p>Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.</p>\n<p>No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.</p>\n<hr>\n<h2>Revision History</h2>\n<ul>\n<li><strong>Initial Release Date: </strong>2026-02-05</li>\n</ul>\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">Date</th>\n<th role=\"columnheader\">Revision</th>\n<th role=\"columnheader\">Summary</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2026-02-05</td>\n<td>1</td>\n<td>Initial Republication of Mitsubishi Electric 2025-020</td>\n</tr>\n</tbody>\n</table>\n<hr>\n<h2>Legal Notice and Terms of Use</h2>\n"
   },
   {
-    "title": "DNS Infrastructure Hijacking Campaign",
-    "summary": "Summary\n\nThe National Cybersecurity and Communications Integration Center (NCCIC), part of the Cybersecurity and Infrastructure Security Agency (CISA), is aware of a global Domain Name System (DNS) infrastructure hijacking campaign. Using compromised credentials, an attacker can modify the location to which an organization\u2019s domain name resources resolve. This enables the attacker to redirect user...",
-    "published": "Thu, 17 Nov 2022 15:57:05 EST",
-    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-024a",
-    "category": "Government",
-    "site": "CISA Alerts"
+    "source": "CISA Alerts",
+    "category": "government",
+    "title": "Hitachi Energy FOX61x",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-036-06",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-036-06.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Hitachi Energy is aware of a vulnerability that affects FOX61x product versions listed in this document. Successful exploitation of this vulnerability can lead to forgery attacks potentially causing impact on confidentiality, integrity and availability for the product. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation. Note: This is applicable only if FOX61x devices are configured to use remote RADIUS authentication.</strong></p>\n<p>The following versions of Hitachi Energy FOX61x are affected:</p>\n<ul>\n<li>FOX61x R18, vers:FOX61x/&lt;=R17A (CVE-2024-3596, CVE-2024-3596)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">CVSS</th>\n<th role=\"columnheader\">Vendor</th>\n<th role=\"columnheader\">Equipment</th>\n<th role=\"columnheader\">Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 9</td>\n<td>Hitachi Energy</td>\n<td>Hitachi Energy FOX61x</td>\n<td>Improper Enforcement of Message Integrity During Transmission in a Communication Channel</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>Switzerland</li>\n</ul>\n<hr>\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-accordion-toggle-all\" href=\"#\">Expand All +</a></p>\n<div class=\"csaf-accordion-item\">\n<h3><a class=\"csaf-accordion-toggle\" href=\"#\">CVE-2024-3596</a></h3>\n<div class=\"csaf-accordion-content\">\n<p>The RADIUS protocol under RFC 2865 is vulnerable to forgery attacks that allow a local attacker to modify any valid response (Access-Accept, Access-Reject, or Access-Challenge) into another response by exploiting a chosen-prefix collision attack on the MD5 Response Authenticator signature..</p>\n<p><a href=\"https://www.cve.org/CVERecord?id=CVE-2024-3596\">View CVE Details</a></p>\n<hr>\n<h4>Affected Products</h4>\n<h5>Hitachi Energy FOX61x</h5>\n<div class=\"ics-vendor-version-status\">\n<div class=\"ics-vendor\"><strong>Vendor:</strong><br>Hitachi Energy</div>\n<div class=\"ics-version\"><strong>Product Version:</strong><br>FOX61x version R18, FOX61x version R17A and earlier</div>\n<div class=\"ics-status\"><strong>Product Status:</strong><br>known_affected</div>\n</div>\n<div class=\"ics-remediations\">\n<h6>Remediations</h6>\n<p><strong>Mitigation</strong><br>Enable the RADIUS Message-Authenticator option in both the FOX61x and RADIUS Server configurations. Refer to the Technical User Documentation at https://publisher.hitachienergy.com/preview?DocumentID=1KHW029042&amp;LanguageCode=en&amp;DocumentPartId=R18&amp;Action=launch.</p>\n<p><strong>Vendor fix</strong><br>Update to FOX61x R18, then enable the RADIUS Message-Authenticator option in both the FOX61x and RADIUS Server configurations. Refer to the Technical User Documentation at https://publisher.hitachienergy.com/preview?DocumentID=1KHW029042&amp;LanguageCode=en&amp;DocumentPartId=R18&amp;Action=launch.</p>\n<p><strong>Mitigation</strong><br>If the upgrade is not possible, apply general mitigation factors with segmentation of FOX management traffic to minimize the risk.</p>\n<p><strong>Mitigation</strong><br>For more information, see the associated Hitachi Energy cybersecurity advisory 8DBD000225 Radius MD5 Vulnerability in Hitachi Energy FOX61x product at https://publisher.hitachienergy.com/preview?DocumentID=8DBD000225&amp;LanguageCode=en or https://publisher.hitachienergy.com/preview?DocumentID=8DBD000225-CSAF&amp;LanguageCode=en&amp;DocumentPartId=&amp;Action=Launch .</p>\n<p><strong>Mitigation</strong><br>Hitachi Energy recommends implementing security practices and firewall configurations to help protect process control networks from external attacks. Such practices include ensuring that process control systems are physically protected from unauthorized access, have no direct Internet connections, and are separated from other networks by a firewall system that minimizes exposed ports, and any additional ports should be evaluated on a case-by-case basis. Process control systems should not be used for web browsing, instant messaging, or email. Portable computers and removable storage media should be thoroughly scanned for malware before being connected to a control system. Organizations should enforce proper password policies and procedures.</p>\n</div>\n<p><strong>Relevant CWE:</strong> <a href=\"https://cwe.mitre.org/data/definitions/924.html\">CWE-924 Improper Enforcement of Message Integrity During Transmission in a Communication Channel</a></p>\n<hr>\n<h4>Metrics</h4>\n<div class=\"csaf-table csaf-metrics-table\">\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">CVSS Version</th>\n<th role=\"columnheader\">Base Score</th>\n<th role=\"columnheader\">Base Severity</th>\n<th role=\"columnheader\">Vector String</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3.1</td>\n<td>9</td>\n<td>CRITICAL</td>\n<td><a href=\"https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H\">CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H</a></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n</div>\n<hr>\n<h2>Acknowledgments</h2>\n<ul>\n<li>Hitachi Energy reported this vulnerability to CISA.</li>\n</ul>\n<hr>\n<h2>Notice</h2>\n<p>The information in this document is subject to change without notice and should not be construed as a commitment by Hitachi Energy. Hitachi Energy provides no warranty, express or implied, including warranties of merchantability and fitness for a particular purpose, for the information contained in this document, and assumes no responsibility for any errors that may appear in this document. In no event shall Hitachi Energy or any of its suppliers be liable for direct, indirect, special, incidental or consequential damages of any nature or kind arising from the use of this document, or from the use of any hardware or software described in this document, even if Hitachi Energy or its suppliers have been advised of the possibility of such damages. This document and parts hereof must not be reproduced or copied without written permission from Hitachi Energy and the contents hereof must not be imparted to a third party nor used for any unauthorized purpose. All rights to registrations and trademarks reside with their respective owners.</p>\n<hr>\n<h2>Support</h2>\n<p>For additional information and support please contact your product provider or Hitachi Energy service organization. For contact information, see https://www.hitachienergy.com/contact-us/ for Hitachi Energy contact-centers.</p>\n<hr>\n<h2>General Mitigation Factors</h2>\n<p>Recommended security practices and firewall configurations can help protect a process control network from attacks that originate from outside the network. Such practices include that process control systems are physically protected from direct access by unauthorized personnel, have no direct connections to the Internet, and are separated from other networks by means of a firewall system that has a minimal number of ports exposed, and others that have to be evaluated case by case. Process control systems should not be used for Internet surfing, instant messaging, or receiving e-mails. Portable computers and removable storage media should be carefully scanned for viruses before they are connected to a control system. Proper password policies and processes should be followed.</p>\n<hr>\n<h2>Legal Notice and Terms of Use</h2>\n<p>This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp; Use policy (https://www.cisa.gov/privacy-policy).</p>\n<hr>\n<h2>Recommended Practices</h2>\n<p>CISA recommends users take defensive measures to minimize the exploitation risk of these vulnerabilities.</p>\n<p>Minimize network exposure for all control system devices and/or systems, and ensure they are not accessible from the internet.</p>\n<p>Locate control system networks and remote devices behind firewalls and isolate them from business networks.</p>\n<p>When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most recent version available. Also recognize VPN is only as secure as its connected devices.</p>\n<p>CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.</p>\n<p>CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.</p>\n<p>CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets. Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.</p>\n<p>Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.</p>\n<hr>\n<h2>Advisory Conversion Disclaimer</h2>\n<p>This ICSA is a verbatim republication of Hitachi Energy PSIRT 8DBD000225 from a direct conversion of the vendor's Common Security Advisory Framework (CSAF) advisory. This is republished to CISA's website as a means of increasing visibility and is provided \"as-is\" for informational purposes only. CISA is not responsible for the editorial or technical accuracy of republished advisories and provides no warranties of any kind regarding any information contained within this advisory. Further, CISA does not endorse any commercial product or service. Please contact Hitachi Energy PSIRT directly for any questions regarding this advisory.</p>\n<h2>Revision History</h2>\n<ul>\n<li><strong>Initial Release Date: </strong>2026-01-27</li>\n</ul>\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">Date</th>\n<th role=\"columnheader\">Revision</th>\n<th role=\"columnheader\">Summary</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2026-01-27</td>\n<td>1</td>\n<td>Initial public release</td>\n</tr>\n<tr>\n<td>2026-02-05</td>\n<td>2</td>\n<td>Initial CISA Republication of Hitachi Energy PSIRT 8DBD000225 advisory</td>\n</tr>\n</tbody>\n</table>\n<hr>\n<h2>Legal Notice and Terms of Use</h2>\n"
   },
   {
-    "title": "New Exploits for Unsecure SAP Systems",
-    "summary": "Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) is issuing this activity alert in response to recently disclosed exploits that target unsecure configurations of SAP components. [1]\n\nTechnical Details\n\nA presentation at the April 2019 Operation for Community Development and Empowerment (OPCDE) cybersecurity conference describes SAP systems with unsecure configurations exposed t...",
-    "published": "Thu, 17 Nov 2022 15:57:05 EST",
-    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-122a",
-    "category": "Government",
-    "site": "CISA Alerts"
+    "source": "CISA Alerts",
+    "category": "government",
+    "title": "o6 Automation GmbH Open62541",
+    "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-036-03",
+    "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-036-03.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition and memory corruption.</strong></p>\n<p>The following versions of o6 Automation GmbH Open62541 are affected:</p>\n<ul>\n<li>Open62541 &gt;=1.5-rc1|&lt;1.5-rc2 (CVE-2026-1301)</li>\n</ul>\n<div class=\"csaf-table\">\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">CVSS</th>\n<th role=\"columnheader\">Vendor</th>\n<th role=\"columnheader\">Equipment</th>\n<th role=\"columnheader\">Vulnerabilities</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>v3 5.7</td>\n<td>o6 Automation GmbH</td>\n<td>o6 Automation GmbH Open62541</td>\n<td>Out-of-bounds Write</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h3>Background</h3>\n<ul>\n<li><strong>Critical Infrastructure Sectors: </strong>Critical Manufacturing</li>\n<li><strong>Countries/Areas Deployed: </strong>Worldwide</li>\n<li><strong>Company Headquarters Location: </strong>Germany</li>\n</ul>\n<hr>\n<h2>Vulnerabilities</h2>\n<div class=\"csaf-accordion\">\n<p><a class=\"csaf-accordion-toggle-all\" href=\"#\">Expand All +</a></p>\n<div class=\"csaf-accordion-item\">\n<h3><a class=\"csaf-accordion-toggle\" href=\"#\">CVE-2026-1301</a></h3>\n<div class=\"csaf-accordion-content\">\n<p>In builds with PubSub and JSON enabled, a crafted JSON message can cause the decoder to write beyond a heap-allocated array before authentication, reliably crashing the process and corrupting memory.</p>\n<p><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-1301\">View CVE Details</a></p>\n<hr>\n<h4>Affected Products</h4>\n<h5>o6 Automation GmbH Open62541</h5>\n<div class=\"ics-vendor-version-status\">\n<div class=\"ics-vendor\"><strong>Vendor:</strong><br>o6 Automation GmbH</div>\n<div class=\"ics-version\"><strong>Product Version:</strong><br>o6 Automation GmbH Open62541: &gt;=1.5-rc1|&lt;1.5-rc2</div>\n<div class=\"ics-status\"><strong>Product Status:</strong><br>known_affected</div>\n</div>\n<div class=\"ics-remediations\">\n<h6>Remediations</h6>\n<p><strong>Mitigation</strong><br>o6 Automation GmbH recommends users upgrade to the stable release of v1.5.0.</p>\n</div>\n<p><strong>Relevant CWE:</strong> <a href=\"https://cwe.mitre.org/data/definitions/787.html\">CWE-787 Out-of-bounds Write</a></p>\n<hr>\n<h4>Metrics</h4>\n<div class=\"csaf-table csaf-metrics-table\">\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">CVSS Version</th>\n<th role=\"columnheader\">Base Score</th>\n<th role=\"columnheader\">Base Severity</th>\n<th role=\"columnheader\">Vector String</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3.1</td>\n<td>5.7</td>\n<td>MEDIUM</td>\n<td><a href=\"https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H\">CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H</a></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n</div>\n<hr>\n<h2>Acknowledgments</h2>\n<ul>\n<li>Andrew Fasano of NIST CAISI reported this vulnerability to CISA</li>\n</ul>\n<hr>\n<h2>Legal Notice and Terms of Use</h2>\n<p>This product is provided subject to this Notification (https://www.cisa.gov/notification) and this Privacy &amp; Use policy (https://www.cisa.gov/privacy-policy).</p>\n<hr>\n<h2>Recommended Practices</h2>\n<p>CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability, such as:</p>\n<p>Minimize network exposure for all control system devices and/or systems, ensuring they are not accessible from the Internet.</p>\n<p>Locate control system networks and remote devices behind firewalls and isolating them from business networks.</p>\n<p>When remote access is required, use more secure methods, such as Virtual Private Networks (VPNs), recognizing VPNs may have vulnerabilities and should be updated to the most current version available. Also recognize VPN is only as secure as the connected devices.</p>\n<p>CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.</p>\n<p>CISA also provides a section for control systems security recommended practices on the ICS webpage on cisa.gov/ics. Several CISA products detailing cyber defense best practices are available for reading and download, including Improving Industrial Control Systems Cybersecurity with Defense-in-Depth Strategies.</p>\n<p>CISA encourages organizations to implement recommended cybersecurity strategies for proactive defense of ICS assets.</p>\n<p>Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at cisa.gov/ics in the technical information paper, ICS-TIP-12-146-01B--Targeted Cyber Intrusion Detection and Mitigation Strategies.</p>\n<p>Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.</p>\n<p>CISA also recommends users take the following measures to protect themselves from social engineering attacks:</p>\n<p>Do not click web links or open attachments in unsolicited email messages.</p>\n<p>Refer to Recognizing and Avoiding Email Scams for more information on avoiding email scams.</p>\n<p>Refer to Avoiding Social Engineering and Phishing Attacks for more information on social engineering attacks.</p>\n<p>No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.</p>\n<hr>\n<h2>Revision History</h2>\n<ul>\n<li><strong>Initial Release Date: </strong>2026-02-05</li>\n</ul>\n<table class=\"tablesaw tablesaw-stack\" data-tablesaw-mode=\"stack\" data-tablesaw-minimap>\n<thead>\n<tr>\n<th role=\"columnheader\" data-tablesaw-priority=\"persist\">Date</th>\n<th role=\"columnheader\">Revision</th>\n<th role=\"columnheader\">Summary</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2026-02-05</td>\n<td>1</td>\n<td>Initial Publication</td>\n</tr>\n</tbody>\n</table>\n<hr>\n<h2>Legal Notice and Terms of Use</h2>\n"
   },
   {
-    "title": "Microsoft Operating Systems BlueKeep Vulnerability",
-    "summary": "Summary\n\nThe Cybersecurity and Infrastructure Security Agency (CISA) is issuing this Activity Alert to provide information on a vulnerability, known as \u201cBlueKeep,\u201d that exists in the following Microsoft Windows Operating Systems (OSs), including both 32- and 64-bit versions, as well as all Service Pack versions:\n\nWindows 2000\nWindows Vista\nWindows XP\nWindows 7\nWindows Server 2003\nWindows Server 20...",
-    "published": "Thu, 17 Nov 2022 15:57:05 EST",
-    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-168a",
-    "category": "Government",
-    "site": "CISA Alerts"
+    "source": "CISA Alerts",
+    "category": "government",
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/02/05/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "summary": "<div class=\"OutlineElement Ltr SCXW128239988 BCX8\">\n<p>CISA has added two new vulnerabilities to its <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>Known Exploited Vulnerabilities (KEV) Catalog</u></a>, based on evidence of active exploitation.&nbsp;</p>\n<ul>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2025-11953\" target=\"_blank\"><u>CVE-2025-11953</u></a> React Native Community CLI OS Command Injection Vulnerability</li>\n<li><a href=\"https://www.cve.org/CVERecord?id=CVE-2026-24423\" target=\"_blank\"><u>CVE-2026-24423</u></a> SmarterTools SmarterMail Missing Authentication for Critical Function Vulnerability</li>\n</ul>\n<p>These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.&nbsp;</p>\n</div>\n<div class=\"OutlineElement Ltr SCXW128239988 BCX8\">\n<p><a href=\"https://www.cisa.gov/binding-operational-directive-22-01\"><u>Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities</u></a> established the KEV Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the <a href=\"https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf\"><u>BOD 22-01 Fact Sheet</u></a> for more information.&nbsp;</p>\n</div>\n<div class=\"OutlineElement Ltr SCXW128239988 BCX8\">\n<p>Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities-catalog\"><u>KEV Catalog vulnerabilities</u></a> as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the <a href=\"https://www.cisa.gov/known-exploited-vulnerabilities\"><u>specified criteria</u></a>.</p>\n</div>\n"
   },
   {
+    "source": "SANS ISC",
+    "category": "research",
     "title": "Broken Phishing URLs, (Thu, Feb 5th)",
-    "summary": "For a few days, many phishing emails that landed into my mailbox contain strange URLs. They are classic emails asking you to open a document, verify your pending emails, \u00e2\u20ac\u00a6",
-    "published": "Thu, 05 Feb 2026 08:43:02 GMT",
     "link": "https://isc.sans.edu/diary/rss/32686",
-    "category": "Research",
-    "site": "SANS Internet Storm Center"
+    "summary": " For a few days, many phishing emails that landed into my mailbox contain strange URLs. They are classic emails asking you to open a document, verify your pending emails, &#xe2;&#x80;&#xa6;&#xd;"
   },
   {
+    "source": "SANS ISC",
+    "category": "research",
     "title": "Malicious Script Delivering More Maliciousness, (Wed, Feb 4th)",
-    "summary": "Today, I received an interesting email with a malicious attachment. When I had a look at the automatic scan results, it seemed to be a malicious script to create a Chrome Injector to steal data. Because InfoStealers are very common these days, it looked \u00e2\u20ac\u0153legit\u00e2\u20ac\u009d but there was something different. The .bat file looks to be a fork of the one found in many GitHub repositories[1].",
-    "published": "Thu, 05 Feb 2026 07:58:23 GMT",
     "link": "https://isc.sans.edu/diary/rss/32682",
-    "category": "Research",
-    "site": "SANS Internet Storm Center"
+    "summary": " Today, I received an interesting email with a malicious attachment. When I had a look at the automatic scan results, it seemed to be a malicious script to create a Chrome Injector to steal data. Because InfoStealers are very common these days, it looked &#xe2;&#x80;&#x9c;legit&#xe2;&#x80;&#x9d; but there was something different. The .bat file looks to be a fork of the one found in many GitHub repositories&#x5b;1&#x5d;.&#xd;"
   },
   {
+    "source": "SANS ISC",
+    "category": "research",
     "title": "ISC Stormcast For Thursday, February 5th, 2026 https://isc.sans.edu/podcastdetail/9796, (Thu, Feb 5th)",
-    "summary": "No description available",
-    "published": "Thu, 05 Feb 2026 02:10:11 GMT",
     "link": "https://isc.sans.edu/diary/rss/32684",
-    "category": "Research",
-    "site": "SANS Internet Storm Center"
+    "summary": null
   },
   {
+    "source": "SANS ISC",
+    "category": "research",
     "title": "ISC Stormcast For Wednesday, February 4th, 2026 https://isc.sans.edu/podcastdetail/9794, (Wed, Feb 4th)",
-    "summary": "No description available",
-    "published": "Wed, 04 Feb 2026 02:00:02 GMT",
     "link": "https://isc.sans.edu/diary/rss/32680",
-    "category": "Research",
-    "site": "SANS Internet Storm Center"
+    "summary": null
   },
   {
+    "source": "SANS ISC",
+    "category": "research",
     "title": "Detecting and Monitoring OpenClaw (clawdbot, moltbot), (Tue, Feb 3rd)",
-    "summary": "Last week, a new AI agent framework was introduced to automate \"live\". It targets office work in particular, focusing on messaging and interacting with systems. The tool has gone viral not so much because of its features, which are similar to those of other agent frameworks, but because of a stream of security oversights in its design.",
-    "published": "Tue, 03 Feb 2026 12:41:53 GMT",
     "link": "https://isc.sans.edu/diary/rss/32678",
-    "category": "Research",
-    "site": "SANS Internet Storm Center"
+    "summary": " Last week, a new AI agent framework was introduced to automate \"live\". It targets office work in particular, focusing on messaging and interacting with systems. The tool has gone viral not so much because of its features, which are similar to those of other agent frameworks, but because of a stream of security oversights in its design.&#xd;"
   },
   {
+    "source": "Palo Alto Unit 42",
+    "category": "research",
     "title": "The Shadow Campaigns: Uncovering Global Espionage",
-    "summary": "In 2025 a threat group compromised government and critical infrastructure in 37 countries, with reconnaissance in 155.\nThe post The Shadow Campaigns: Uncovering Global Espionage appeared first on Unit 42.",
-    "published": "Thu, 05 Feb 2026 11:00:10 +0000",
     "link": "https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage/",
-    "category": "Research",
-    "site": "Unit 42"
+    "summary": "<p>In 2025 a threat group compromised government and critical infrastructure in 37 countries, with reconnaissance in 155.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/shadow-campaigns-uncovering-global-espionage/\">The Shadow Campaigns: Uncovering Global Espionage</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>\n"
   },
   {
+    "source": "Palo Alto Unit 42",
+    "category": "research",
     "title": "Why Smart People Fall For Phishing Attacks",
-    "summary": "Why do successful phishing attacks target our psychology rather than just our software? Discover Unit 42\u2019s latest insights on defeating social engineering and securing your digital life.\nThe post Why Smart People Fall For Phishing Attacks appeared first on Unit 42.",
-    "published": "Wed, 04 Feb 2026 00:00:43 +0000",
     "link": "https://unit42.paloaltonetworks.com/psychology-of-phishing/",
-    "category": "Research",
-    "site": "Unit 42"
+    "summary": "<p>Why do successful phishing attacks target our psychology rather than just our software? Discover Unit 42’s latest insights on defeating social engineering and securing your digital life.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/psychology-of-phishing/\">Why Smart People Fall For Phishing Attacks</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>\n"
   },
   {
+    "source": "Palo Alto Unit 42",
+    "category": "research",
     "title": "Privileged File System Vulnerability Present in a SCADA System",
-    "summary": "We detail our discovery of CVE-2025-0921. This privileged file system flaw in SCADA system Iconics Suite could lead to a denial-of-service (DoS) attack.\nThe post Privileged File System Vulnerability Present in a SCADA System appeared first on Unit 42.",
-    "published": "Fri, 30 Jan 2026 23:00:01 +0000",
     "link": "https://unit42.paloaltonetworks.com/iconics-suite-cve-2025-0921/",
-    "category": "Research",
-    "site": "Unit 42"
+    "summary": "<p>We detail our discovery of CVE-2025-0921. This privileged file system flaw in SCADA system Iconics Suite could lead to a denial-of-service (DoS) attack.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/iconics-suite-cve-2025-0921/\">Privileged File System Vulnerability Present in a SCADA System</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>\n"
   },
   {
+    "source": "Palo Alto Unit 42",
+    "category": "research",
     "title": "Understanding the Russian Cyberthreat to the 2026 Winter Olympics",
-    "summary": "Russia's current isolation from the Olympics may lead to increased cyberthreats targeting the 2026 Winter Games. We discuss the potential threat picture.\nThe post Understanding the Russian Cyberthreat to the 2026 Winter Olympics appeared first on Unit 42.",
-    "published": "Thu, 29 Jan 2026 21:30:47 +0000",
     "link": "https://unit42.paloaltonetworks.com/russian-cyberthreat-2026-winter-olympics/",
-    "category": "Research",
-    "site": "Unit 42"
+    "summary": "<p>Russia's current isolation from the Olympics may lead to increased cyberthreats targeting the 2026 Winter Games. We discuss the potential threat picture.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/russian-cyberthreat-2026-winter-olympics/\">Understanding the Russian Cyberthreat to the 2026 Winter Olympics</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>\n"
   },
   {
+    "source": "Palo Alto Unit 42",
+    "category": "research",
     "title": "Happy 9th Anniversary, CTA: A Celebration of Collaboration in Cyber Defense",
-    "summary": "Unit 42 celebrates 9 years of the Cyber Threat Alliance, tracing its journey from a bold idea to a global leader in collaborative cyber defense.\nThe post Happy 9th Anniversary, CTA: A Celebration of Collaboration in Cyber Defense appeared first on Unit 42.",
-    "published": "Sat, 24 Jan 2026 00:00:53 +0000",
     "link": "https://unit42.paloaltonetworks.com/cta-9th-anniversary/",
-    "category": "Research",
-    "site": "Unit 42"
+    "summary": "<p>Unit 42 celebrates 9 years of the Cyber Threat Alliance, tracing its journey from a bold idea to a global leader in collaborative cyber defense.</p>\n<p>The post <a href=\"https://unit42.paloaltonetworks.com/cta-9th-anniversary/\">Happy 9th Anniversary, CTA: A Celebration of Collaboration in Cyber Defense</a> appeared first on <a href=\"https://unit42.paloaltonetworks.com\">Unit 42</a>.</p>\n"
   },
   {
-    "title": "What Security Teams Need to Know About OpenClaw, the AI Super Agent",
-    "summary": "No description available",
-    "published": "Feb 04, 2026 00:00:00-0800",
-    "link": "https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/",
-    "category": "Vendor",
-    "site": "CrowdStrike Blog"
+    "source": "Proofpoint Blog",
+    "category": "vendor",
+    "title": "Proofpoint: The $12B Deal Behind an AI-Driven Cybersecurity Leader",
+    "link": "https://www.proofpoint.com/us/newsroom/news/proofpoint-12b-deal-behind-ai-driven-cybersecurity-leader",
+    "summary": null
   },
   {
-    "title": "CrowdStrike Named a Customers&rsquo; Choice in 2026 Gartner Peer Insights&trade; Voice of the Customer for Application Security Posture Management Tools",
-    "summary": "No description available",
-    "published": "Feb 03, 2026 00:00:00-0800",
-    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-customers-choice-2026-gartner-peer-insights-voice-of-the-customer-for-aspm/",
-    "category": "Vendor",
-    "site": "CrowdStrike Blog"
+    "source": "Proofpoint Blog",
+    "category": "vendor",
+    "title": "CEO Outlook 2026: Sumit Dhawan",
+    "link": "https://www.proofpoint.com/us/newsroom/news/ceo-outlook-2026-sumit-dhawan",
+    "summary": null
   },
   {
-    "title": "CrowdStrike Falcon Scores Perfect 100% in SE Labs&rsquo; Most Challenging Ransomware Test",
-    "summary": "No description available",
-    "published": "Feb 03, 2026 00:00:00-0800",
-    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-scores-100-percent-in-se-labs-ransomware-test/",
-    "category": "Vendor",
-    "site": "CrowdStrike Blog"
+    "source": "Proofpoint Blog",
+    "category": "vendor",
+    "title": "Venezuela Raid Highlights Cyber Vulnerability of Critical Infrastructure",
+    "link": "https://www.proofpoint.com/us/newsroom/news/venezuela-raid-highlights-cyber-vulnerability-critical-infrastructure",
+    "summary": null
   },
   {
-    "title": "Secure AI with CrowdStrike: Real-World Stories of Protecting AI Workloads and Data",
-    "summary": "No description available",
-    "published": "Feb 02, 2026 00:00:00-0800",
-    "link": "https://www.crowdstrike.com/en-us/blog/how-three-companies-secure-ai-with-crowdstrike/",
-    "category": "Vendor",
-    "site": "CrowdStrike Blog"
+    "source": "Proofpoint Blog",
+    "category": "vendor",
+    "title": "Agentic AI Exposes New Cybersecurity Risks for Enterprises",
+    "link": "https://www.proofpoint.com/us/newsroom/news/agentic-ai-exposes-new-cybersecurity-risks-enterprises",
+    "summary": null
   },
   {
-    "title": "How Agentic Tool Chain Attacks Threaten AI Agent Security",
-    "summary": "No description available",
-    "published": "Jan 30, 2026 00:00:00-0800",
-    "link": "https://www.crowdstrike.com/en-us/blog/how-agentic-tool-chain-attacks-threaten-ai-agent-security/",
+    "source": "Proofpoint Blog",
+    "category": "vendor",
+    "title": "How Hackers And Cargo Thieves Orchestrated The Great Massachusetts Lobster Heist",
+    "link": "https://www.proofpoint.com/us/newsroom/news/how-hackers-and-cargo-thieves-orchestrated-great-massachusetts-lobster-heist",
+    "summary": null
+  },
+  {
+    "source": "Proofpoint Blog",
     "category": "Vendor",
-    "site": "CrowdStrike Blog"
+    "title": "Cybersecurity for the agentic workspace starts with Proofpoint’s human and agent-centric security platform.",
+    "link": null,
+    "summary": null
+  },
+  {
+    "source": "Proofpoint Blog",
+    "category": "Vendor",
+    "title": "Stop cyber threats with AI-driven multichannel protection.",
+    "link": null,
+    "summary": null
+  },
+  {
+    "source": "Proofpoint Blog",
+    "category": "Vendor",
+    "title": "Transform data security with a unified, omnichannel approach.",
+    "link": null,
+    "summary": null
+  },
+  {
+    "source": "Proofpoint Blog",
+    "category": "Vendor",
+    "title": "Proofpoint technologies powering human and agent-centric security​.",
+    "link": null,
+    "summary": null
+  },
+  {
+    "source": "Proofpoint Blog",
+    "category": "Vendor",
+    "title": "Optimize Proofpoint solutions with expert services.",
+    "link": null,
+    "summary": null
   }
 ]
