@@ -50,11 +50,24 @@ DEFAULT_SOURCES = [
 # Load user sources from YAML
 # -------------------------
 def load_user_sources():
-    if os.path.exists(SOURCES_FILE):
-        with open(SOURCES_FILE, "r") as f:
-            data = yaml.safe_load(f)
-            return data.get("sources", [])
-    return []
+    """
+    Load user sources from the YAML/JSON config file.
+    Handles both:
+      - a dictionary with a "sources" key
+      - a list at the top level
+    """
+    import yaml  # or json if using JSON
+    with open("config.yml", "r") as f:  # replace with your actual config file path
+        data = yaml.safe_load(f)
+
+    if isinstance(data, list):
+        return data  # top-level list
+
+    if isinstance(data, dict):
+        return data.get("sources", [])  # dict with "sources" key
+
+    return []  # fallback
+
 
 # -------------------------
 # Merge sources
