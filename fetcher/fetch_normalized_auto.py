@@ -57,7 +57,7 @@ def load_user_sources():
       - a list at the top level
     """
     import yaml  # or json if using JSON
-    with open("config.yml", "r") as f:  # replace with your actual config file path
+    with open("sources.yaml", "r") as f:  # replace with your actual config file path
         data = yaml.safe_load(f)
 
     if isinstance(data, list):
