@@ -50,10 +50,11 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const issue = await github.issues.create({
+            await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: "⚠️ Threat Feed Fetcher Failed",
               body: "The GitHub Actions workflow `fetch_feed.yml` failed. Check the Actions logs for details.",
             })
+
 
