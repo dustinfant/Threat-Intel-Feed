@@ -1,52 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Threat Intel Feed</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #121212;
-            color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-        }
-        h1 { text-align: center; margin-bottom: 30px; }
-        h2 { border-bottom: 1px solid #333; padding-bottom: 5px; margin-top: 30px; }
-        .feed-item {
-            margin: 15px 0;
-            padding: 10px;
-            border-bottom: 1px solid #333;
-        }
-        .feed-item:last-child {
-            border-bottom: none;
-        }
-        .feed-title { font-weight: bold; font-size: 1.1em; }
-        .feed-summary { margin: 5px 0; }
-        .feed-meta { font-size: 0.85em; color: #aaa; }
-        a { color: #1e90ff; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Threat Intelligence Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 1rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #00bfff;
+    }
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 1rem;
+      background-color: #1a1a1a;
+      justify-content: center;
+    }
+    .filters select {
+      padding: 0.5rem;
+      font-size: 1rem;
+      background-color: #2a2a2a;
+      color: #e0e0e0;
+      border: 1px solid #444;
+      border-radius: 5px;
+    }
+    .feed-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .feed-card {
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .feed-card h2 {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem 0;
+      color: #00bfff;
+    }
+    .feed-card p {
+      font-size: 0.9rem;
+      line-height: 1.3rem;
+      margin: 0.5rem 0;
+    }
+    .feed-meta {
+      font-size: 0.8rem;
+      color: #aaa;
+      margin-top: auto;
+    }
+    .tag {
+      background-color: #444;
+      color: #fff;
+      padding: 0.2rem 0.5rem;
+      border-radius: 3px;
+      font-size: 0.7rem;
+      margin-right: 0.3rem;
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-    <h1>Threat Intel Feed</h1>
+  <header>Threat Intelligence Dashboard</header>
+
+  <div class="filters">
+    <select id="categoryFilter">
+      <option value="all">All Categories</option>
+      {% for category in grouped.keys() %}
+        <option value="{{ category }}">{{ category }}</option>
+      {% endfor %}
+    </select>
+
+    <select id="sourceFilter">
+      <option value="all">All Sources</option>
+      {% for source in sources %}
+        <option value="{{ source }}">{{ source }}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="feed-grid" id="feedGrid">
     {% for category, feeds in grouped.items() %}
-        <h2>{{ category }}</h2>
-        {% for feed in feeds %}
-            <div class="feed-item">
-                <div class="feed-title"><a href="{{ feed.link }}" target="_blank">{{ feed.title }}</a></div>
-                <div class="feed-summary">{{ feed.summary }}</div>
-                <div class="feed-meta">{{ feed.site }} | Published: {{ feed.published }}</div>
-            </div>
-        {% endfor %}
+      {% for feed in feeds %}
+      <div class="feed-card" data-category="{{ category }}" data-source="{{ feed.source }}">
+        <h2><a href="{{ feed.link }}" target="_blank" style="color:#00bfff; text-decoration:none;">{{ feed.title }}</a></h2>
+        <p>{{ feed.summary|safe }}</p>
+        <div class="feed-meta">
+          Source: {{ feed.source }} | Published: {{ feed.published }}<br>
+          {% if feed.tags %}
+            {% for tag in feed.tags %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
     {% endfor %}
-</div>
+  </div>
+
+  <script>
+    const categoryFilter = document.getElementById("categoryFilter");
+    const sourceFilter = document.getElementById("sourceFilter");
+    const feedGrid = document.getElementById("feedGrid");
+    const cards = Array.from(feedGrid.children);
+
+    function filterFeeds() {
+      const category = categoryFilter.value;
+      const source = sourceFilter.value;
+
+      cards.forEach(card => {
+        const matchCategory = category === "all" || card.dataset.category === category;
+        const matchSource = source === "all" || card.dataset.source === source;
+
+        card.style.display = (matchCategory && matchSource) ? "block" : "none";
+      });
+    }
+
+    categoryFilter.addEventListener("change", filterFeeds);
+    sourceFilter.addEventListener("change", filterFeeds);
+  </script>
 </body>
 </html>
 

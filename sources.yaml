@@ -1,38 +1,115 @@
-# Threat Intelligence Feed Sources
-# Categories: General, Investigative, Government, Research, Vendor
+# ===========================
+# Threat Intelligence RSS Feeds
+# ===========================
 
-- name: Dark Reading
-  url: https://www.darkreading.com/rss.xml
+# ---------------------------
+# General / Threat News
+# ---------------------------
+- name: ZDNet Security
+  url: https://www.zdnet.com/topic/security/rss.xml
   category: General
 
-- name: The Hacker News
-  url: https://thehackernews.com/feeds/posts/default
+- name: BleepingComputer
+  url: https://www.bleepingcomputer.com/feed/
   category: General
 
-- name: Krebs on Security
-  url: https://krebsonsecurity.com/feed/
-  category: Investigative
+- name: HackRead
+  url: https://hackread.com/feed/
+  category: General
 
+- name: Security Magazine - Cybersecurity
+  url: https://www.securitymagazine.com/rss/topic/2236-cybersecurity-news
+  category: General
+
+- name: SecurityWeek
+  url: https://www.securityweek.com/feed/
+  category: General
+
+- name: BleepingComputer Threat Intel
+  url: https://www.bleepingcomputer.com/feed/
+  category: General
+
+# ---------------------------
+# Vendor / Vendor Research
+# ---------------------------
+- name: Check Point Research
+  url: https://research.checkpoint.com/feed/
+  category: Vendor
+
+- name: Bitdefender Labs
+  url: https://www.bitdefender.com/blog/api/rss/labs/
+  category: Vendor
+
+- name: Symantec Enterprise Blog
+  url: https://sed-cms.broadcom.com/rss/v1/blogs/rss.xml
+  category: Vendor
+
+- name: Cloudblogs Microsoft Secure
+  url: https://cloudblogs.microsoft.com/microsoftsecure/feed/
+  category: Vendor
+
+- name: Rapid7 Security
+  url: https://blog.rapid7.com/rss
+  category: Vendor
+
+- name: Securonix Blog
+  url: https://www.securonix.com/blog/feed/
+  category: Vendor
+
+- name: Help Net Security
+  url: https://www.helpnetsecurity.com/feed/
+  category: Vendor
+
+# ---------------------------
+# Research / Community / OSINT
+# ---------------------------
+- name: Securelist (Kaspersky)
+  url: https://securelist.com/feed/
+  category: Research
+
+- name: Reddit Netsec
+  url: https://www.reddit.com/r/netsec/.rss
+  category: Research
+
+- name: Reddit Cybersecurity
+  url: https://www.reddit.com/r/cybersecurity/.rss
+  category: Research
+
+- name: Schneier on Security
+  url: https://www.schneier.com/feed/atom/
+  category: Research
+
+- name: Malwarebytes Labs
+  url: https://blog.malwarebytes.com/feed/
+  category: Research
+
+- name: AdSecurity.org Blog
+  url: https://adsecurity.org/?feed=rss2
+  category: Research
+
+- name: Reverse.put.as Blog
+  url: https://reverse.put.as/feed/
+  category: Research
+
+- name: PenTestTools Blog
+  url: http://feeds.feedburner.com/PentestTools
+  category: Research
+
+- name: WebSec.ca Security
+  url: https://websec.ca/blog_posts/index.rss
+  category: Research
+
+# ---------------------------
+# Government / Advisories
+# ---------------------------
 - name: CISA Alerts
   url: https://www.cisa.gov/uscert/ncas/alerts.xml
   category: Government
 
+- name: Ubuntu Security Notices
+  url: https://www.ubuntu.com/usn/atom.xml
+  category: Government
+
 - name: SANS Internet Storm Center
   url: https://isc.sans.edu/rssfeed.xml
-  category: Research
-
-- name: Unit 42
-  url: https://unit42.paloaltonetworks.com/feed/
-  category: Research
-
-- name: CrowdStrike Blog
-  url: https://www.crowdstrike.com/blog/feed/
-  category: Vendor
-
-- name: Proofpoint Blog
-  url: https://www.proofpoint.com/us/blog/threat-insight/feed
-  category: Vendor
-
-
-
-
+  category: Government

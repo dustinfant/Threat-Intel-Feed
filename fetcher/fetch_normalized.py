@@ -1,66 +1,94 @@
-import json
 import feedparser
-import os
+import requests
 import yaml
-from html import unescape
-import re
+import json
+import os
+import bleach
+from datetime import datetime
+from bs4 import BeautifulSoup
 
-SOURCES_FILE = os.path.join(os.path.dirname(__file__), "..", "sources.yaml")
-OUTPUT_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "feed_normalized.json")
+DATA_DIR = "data"
+OUTPUT_FILE = os.path.join(DATA_DIR, "feed_normalized.json")
+SOURCES_FILE = "sources.yaml"
+
+ALLOWED_TAGS = [
+    "p", "ul", "ol", "li", "strong", "em", "b", "i", "a", "code", "pre", "br"
+]
+
+ALLOWED_ATTRS = {
+    "a": ["href", "title", "target"]
+}
+
+def sanitize_html(html):
+    if not html:
+        return ""
+    cleaned = bleach.clean(
+        html,
+        tags=ALLOWED_TAGS,
+        attributes=ALLOWED_ATTRS,
+        strip=True
+    )
+    return cleaned
 
 def load_sources():
-    if not os.path.exists(SOURCES_FILE):
-        print(f"Sources file not found: {SOURCES_FILE}")
-        return []
-    with open(SOURCES_FILE, "r", encoding="utf-8") as f:
-        sources = yaml.safe_load(f)
-    return sources
+    with open(SOURCES_FILE, "r") as f:
+        return yaml.safe_load(f)
 
-def clean_html(raw_html):
-    """Remove HTML tags and unescape entities."""
-    if not raw_html:
-        return "No description available"
-    text = re.sub('<[^<]+?>', '', raw_html)  # strip tags
-    return unescape(text).strip()
+def fetch_feed(source):
+    print(f"[*] Fetching {source['name']}…")
+    entries = []
 
-def fetch_feed(url):
-    d = feedparser.parse(url)
-    items = []
-    for entry in d.entries[:5]:  # latest 5 articles
-        summary = entry.get("summary", "") or entry.get("description", "")
-        clean_summary = clean_html(summary)
-        # Optionally truncate long summaries
-        if len(clean_summary) > 400:
-            clean_summary = clean_summary[:400] + "..."
-        items.append({
-            "title": entry.get("title", "No title"),
-            "summary": clean_summary,
-            "published": entry.get("published", ""),
-            "link": entry.get("link", "#")
+    feed = feedparser.parse(source["url"])
+    for entry in feed.entries:
+        title = entry.get("title", "").strip()
+        link = entry.get("link", "")
+
+        raw_summary = (
+            entry.get("summary") or
+            entry.get("description") or
+            ""
+        )
+
+        # Normalize summary text
+        soup = BeautifulSoup(raw_summary, "html.parser")
+        normalized_html = str(soup)
+
+        summary = sanitize_html(normalized_html)
+
+        published = entry.get("published", "")
+        tags = [t.term for t in entry.get("tags", [])] if "tags" in entry else []
+
+        entries.append({
+            "source": source["name"],
+            "category": source["category"],
+            "title": title,
+            "link": link,
+            "summary": summary,
+            "published": published,
+            "tags": tags or ["News"]
         })
-    return items
+
+    return entries
 
 def main():
+    os.makedirs(DATA_DIR, exist_ok=True)
     sources = load_sources()
-    all_feeds = []
+
+    all_entries = []
+
+    print("[*] Starting normalized fetch")
 
     for source in sources:
-        url = source.get("url")
-        category = source.get("category", "Uncategorized")
-        if not url:
-            continue
-        articles = fetch_feed(url)
-        for a in articles:
-            feed_item = a.copy()
-            feed_item["category"] = category
-            feed_item["site"] = source.get("name", "Unnamed")
-            all_feeds.append(feed_item)
-        print(f"Fetched {len(articles)} items from {source.get('name')}")
+        try:
+            entries = fetch_feed(source)
+            all_entries.extend(entries)
+        except Exception as e:
+            print(f"[!] Failed to fetch {source['name']}: {e}")
 
-    os.makedirs(os.path.join(os.path.dirname(__file__), "..", "data"), exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(all_feeds, f, indent=2)
-    print(f"All feeds saved to {OUTPUT_FILE}")
+        json.dump(all_entries, f, indent=2, ensure_ascii=False)
+
+    print(f"[+] Wrote {len(all_entries)} entries to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
