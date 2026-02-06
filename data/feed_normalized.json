@@ -2,6 +2,13 @@
   {
     "source": "The Hacker News",
     "category": "general",
+    "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
+    "link": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
+    "summary": "Artificial intelligence (AI) company Anthropic revealed that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-source libraries, including Ghostscript, OpenSC, and CGIF.\nClaude Opus 4.6, which was launched on Thursday, comes with improved coding skills, including code review and debugging capabilities, along"
+  },
+  {
+    "source": "The Hacker News",
+    "category": "general",
     "title": "AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack",
     "link": "https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html",
     "summary": "The distributed denial-of-service (DDoS) botnet known as AISURU/Kimwolf has been attributed to a record-setting attack that peaked at 31.4 Terabits per second (Tbps) and lasted only 35 seconds.\nCloudflare, which automatically detected and mitigated the activity, said it's part of a growing number of hyper-volumetric HTTP DDoS attacks mounted by the botnet in the fourth quarter of 2025. The"
@@ -26,13 +33,6 @@
     "title": "Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends",
     "link": "https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html",
     "summary": "The elusive Iranian threat group known as Infy (aka Prince of Persia) has evolved its tactics as part of efforts to hide its tracks, even as it readied new command-and-control (C2) infrastructure coinciding with the end of the widespread internet blackout the regime imposed at the start of January 2026.\n\"The threat actor stopped maintaining its C2 servers on January 8 for the first time since we"
-  },
-  {
-    "source": "The Hacker News",
-    "category": "general",
-    "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
-    "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
-    "summary": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands.\nThe flaw, tracked as CVE-2026-25049 (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613 (CVSS score: 9.9), another critical defect that"
   },
   {
     "source": "BleepingComputer",
