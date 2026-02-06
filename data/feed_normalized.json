@@ -2,6 +2,13 @@
   {
     "source": "The Hacker News",
     "category": "general",
+    "title": "How Samsung Knox Helps Stop Your Network Security Breach",
+    "link": "https://thehackernews.com/2026/02/how-samsung-knox-helps-stop-your-network-security-breach.html",
+    "summary": "As you know, enterprise network security has undergone significant evolution over the past decade. Firewalls have become more intelligent, threat detection methods have advanced, and access controls are now more detailed. However (and it&rsquo;s a big &ldquo;however&rdquo;), the increasing use of mobile devices in business operations necessitates network security measures that are specifically"
+  },
+  {
+    "source": "The Hacker News",
+    "category": "general",
     "title": "Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware",
     "link": "https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html",
     "summary": "Cybersecurity researchers have discovered a new supply chain attack in which legitimate packages on npm and the Python Package Index (PyPI) repository have been compromised to push malicious versions to facilitate wallet credential theft and remote code execution.\nThe compromised versions of the two packages are listed below -\n\n@dydxprotocol/v4-client-js (npm) - 3.4.1, 1.22.1, 1.15.2, 1.0.31&"
@@ -26,13 +33,6 @@
     "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
     "link": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
     "summary": "This week didn’t produce one big headline. It produced many small signals — the kind that quietly shape what attacks will look like next.\nResearchers tracked intrusions that start in ordinary places: developer workflows, remote tools, cloud access, identity paths, and even routine user actions. Nothing looked dramatic on the surface. That’s the point. Entry is becoming less visible while impact"
-  },
-  {
-    "source": "The Hacker News",
-    "category": "general",
-    "title": "The Buyer’s Guide to AI Usage Control",
-    "link": "https://thehackernews.com/2026/02/the-buyers-guide-to-ai-usage-control.html",
-    "summary": "Today’s “AI everywhere” reality is woven into everyday workflows across the enterprise, embedded in SaaS platforms, browsers, copilots, extensions, and a rapidly expanding universe of shadow tools that appear faster than security teams can track. Yet most organizations still rely on legacy controls that operate far away from where AI interactions actually occur. The result is a widening"
   },
   {
     "source": "BleepingComputer",
