@@ -2,6 +2,20 @@
   {
     "source": "The Hacker News",
     "category": "general",
+    "title": "CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk",
+    "link": "https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered Federal Civilian Executive Branch (FCEB) agencies to strengthen asset lifecycle management for edge network devices and remove those that no longer receive security updates from original equipment manufacturers (OEMs) over the next 12 to 18 months.\nThe agency said the move is to drive down technical debt and minimize"
+  },
+  {
+    "source": "The Hacker News",
+    "category": "general",
+    "title": "Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities",
+    "link": "https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html",
+    "summary": "A previously undocumented cyber espionage group operating from Asia broke into the networks of at least 70 government and critical infrastructure organizations across 37 countries over the past year, according to new findings from Palo Alto Networks Unit 42.\nIn addition, the hacking crew has been observed conducting active reconnaissance against government infrastructure associated with 155"
+  },
+  {
+    "source": "The Hacker News",
+    "category": "general",
     "title": "How Samsung Knox Helps Stop Your Network Security Breach",
     "link": "https://thehackernews.com/2026/02/how-samsung-knox-helps-stop-your-network-security-breach.html",
     "summary": "As you know, enterprise network security has undergone significant evolution over the past decade. Firewalls have become more intelligent, threat detection methods have advanced, and access controls are now more detailed. However (and it&rsquo;s a big &ldquo;however&rdquo;), the increasing use of mobile devices in business operations necessitates network security measures that are specifically"
@@ -21,18 +35,18 @@
     "summary": "Artificial intelligence (AI) company Anthropic revealed that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-source libraries, including Ghostscript, OpenSC, and CGIF.\nClaude Opus 4.6, which was launched Thursday, comes with improved coding skills, including code review and debugging capabilities, along with"
   },
   {
-    "source": "The Hacker News",
+    "source": "BleepingComputer",
     "category": "general",
-    "title": "AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack",
-    "link": "https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html",
-    "summary": "The distributed denial-of-service (DDoS) botnet known as AISURU/Kimwolf has been attributed to a record-setting attack that peaked at 31.4 Terabits per second (Tbps) and lasted only 35 seconds.\nCloudflare, which automatically detected and mitigated the activity, said it's part of a growing number of hyper-volumetric HTTP DDoS attacks mounted by the botnet in the fourth quarter of 2025. The"
+    "title": "EU says TikTok faces large fine over \"addictive design\"",
+    "link": "https://www.bleepingcomputer.com/news/security/european-commission-says-tiktok-facing-fine-over-addictive-design/",
+    "summary": "The European Commission said today that TikTok is facing a fine because its addictive features, including infinite scroll, autoplay, push notifications, and personalized recommendation systems, are breaching the EU's Digital Services Act (DSA). [...]"
   },
   {
-    "source": "The Hacker News",
+    "source": "BleepingComputer",
     "category": "general",
-    "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
-    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
-    "summary": "This week didn’t produce one big headline. It produced many small signals — the kind that quietly shape what attacks will look like next.\nResearchers tracked intrusions that start in ordinary places: developer workflows, remote tools, cloud access, identity paths, and even routine user actions. Nothing looked dramatic on the surface. That’s the point. Entry is becoming less visible while impact"
+    "title": "Man pleads guilty to hacking nearly 600 women’s Snapchat accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/man-pleads-guilty-to-hacking-nearly-600-womens-snapchat-accounts/",
+    "summary": "An Illinois man pleaded guilty to hacking nearly 600 women's Snapchat accounts to steal nude photos that he kept, sold, or traded online, including accounts he compromised at the request of a former university track coach who was later convicted of sextortion. [...]"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "title": "Spain's Ministry of Science shuts down systems after breach claims",
     "link": "https://www.bleepingcomputer.com/news/security/spains-ministry-of-science-shuts-down-systems-after-breach-claims/",
     "summary": "Spain's Ministry of Science (Ministerio de Ciencia) announced a partial shutdown of its IT systems, affecting several citizen- and company-facing services. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "category": "general",
-    "title": "Ransomware gang uses ISPsystem VMs for stealthy payload delivery",
-    "link": "https://www.bleepingcomputer.com/news/security/ransomware-gang-uses-ispsystem-vms-for-stealthy-payload-delivery/",
-    "summary": "Ransomware operators are hosting and delivering malicious payloads at scale by abusing virtual machines (VMs) provisioned by ISPsystem, a legitimate virtual infrastructure management provider. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "category": "general",
-    "title": "Microsoft to shut down Exchange Online EWS in April 2027",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-shut-down-exchange-web-services-in-cloud-in-2027/",
-    "summary": "Microsoft announced today that the Exchange Web Services (EWS) API for Exchange Online will be shut down in April 2027, after nearly 20 years. [...]"
   },
   {
     "source": "CISA Alerts",
