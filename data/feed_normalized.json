@@ -107,6 +107,13 @@
   {
     "source": "SANS ISC",
     "category": "research",
+    "title": "ISC Stormcast For Friday, February 6th, 2026 https://isc.sans.edu/podcastdetail/9798, (Fri, Feb 6th)",
+    "link": "https://isc.sans.edu/diary/rss/32688",
+    "summary": null
+  },
+  {
+    "source": "SANS ISC",
+    "category": "research",
     "title": "Broken Phishing URLs, (Thu, Feb 5th)",
     "link": "https://isc.sans.edu/diary/rss/32686",
     "summary": " For a few days, many phishing emails that landed into my mailbox contain strange URLs. They are classic emails asking you to open a document, verify your pending emails, &#xe2;&#x80;&#xa6;&#xd;"
@@ -131,13 +138,6 @@
     "title": "ISC Stormcast For Wednesday, February 4th, 2026 https://isc.sans.edu/podcastdetail/9794, (Wed, Feb 4th)",
     "link": "https://isc.sans.edu/diary/rss/32680",
     "summary": null
-  },
-  {
-    "source": "SANS ISC",
-    "category": "research",
-    "title": "Detecting and Monitoring OpenClaw (clawdbot, moltbot), (Tue, Feb 3rd)",
-    "link": "https://isc.sans.edu/diary/rss/32678",
-    "summary": " Last week, a new AI agent framework was introduced to automate \"live\". It targets office work in particular, focusing on messaging and interacting with systems. The tool has gone viral not so much because of its features, which are similar to those of other agent frameworks, but because of a stream of security oversights in its design.&#xd;"
   },
   {
     "source": "Palo Alto Unit 42",
