@@ -2,9 +2,16 @@
   {
     "source": "The Hacker News",
     "category": "general",
+    "title": "Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware",
+    "link": "https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html",
+    "summary": "Cybersecurity researchers have discovered a new supply chain attack in which legitimate packages on npm and the Python Package Index (PyPI) repository have been compromised to push malicious versions to facilitate wallet credential theft and remote code execution.\nThe compromised versions of the two packages are listed below -\n\n@dydxprotocol/v4-client-js (npm) - 3.4.1, 1.22.1, 1.15.2, 1.0.31&"
+  },
+  {
+    "source": "The Hacker News",
+    "category": "general",
     "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
     "link": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
-    "summary": "Artificial intelligence (AI) company Anthropic revealed that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-source libraries, including Ghostscript, OpenSC, and CGIF.\nClaude Opus 4.6, which was launched on Thursday, comes with improved coding skills, including code review and debugging capabilities, along"
+    "summary": "Artificial intelligence (AI) company Anthropic revealed that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-source libraries, including Ghostscript, OpenSC, and CGIF.\nClaude Opus 4.6, which was launched Thursday, comes with improved coding skills, including code review and debugging capabilities, along with"
   },
   {
     "source": "The Hacker News",
@@ -28,11 +35,18 @@
     "summary": "Today’s “AI everywhere” reality is woven into everyday workflows across the enterprise, embedded in SaaS platforms, browsers, copilots, extensions, and a rapidly expanding universe of shadow tools that appear faster than security teams can track. Yet most organizations still rely on legacy controls that operate far away from where AI interactions actually occur. The result is a widening"
   },
   {
-    "source": "The Hacker News",
+    "source": "BleepingComputer",
     "category": "general",
-    "title": "Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends",
-    "link": "https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html",
-    "summary": "The elusive Iranian threat group known as Infy (aka Prince of Persia) has evolved its tactics as part of efforts to hide its tracks, even as it readied new command-and-control (C2) infrastructure coinciding with the end of the widespread internet blackout the regime imposed at the start of January 2026.\n\"The threat actor stopped maintaining its C2 servers on January 8 for the first time since we"
+    "title": "Flickr discloses potential data breach exposing users' names, emails",
+    "link": "https://www.bleepingcomputer.com/news/security/flickr-discloses-potential-data-breach-exposing-users-names-emails/",
+    "summary": "Photo-sharing platform Flickr is notifying users of a potential data breach after a vulnerability at a third-party email service provider exposed their real names, email addresses, IP addresses, and account activity. [...]"
+  },
+  {
+    "source": "BleepingComputer",
+    "category": "general",
+    "title": "CISA orders federal agencies to replace end-of-life edge devices",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-federal-agencies-to-replace-end-of-life-edge-devices/",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a new binding operational directive requiring federal agencies to identify and remove network edge devices that no longer receive security updates from manufacturers. [...]"
   },
   {
     "source": "BleepingComputer",
@@ -54,20 +68,6 @@
     "title": "Microsoft to shut down Exchange Online EWS in April 2027",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-shut-down-exchange-web-services-in-cloud-in-2027/",
     "summary": "Microsoft announced today that the Exchange Web Services (EWS) API for Exchange Online will be shut down in April 2027, after nearly 20 years. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "category": "general",
-    "title": "Italian university La Sapienza goes offline after cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/italian-university-la-sapienza-goes-offline-after-cyberattack/",
-    "summary": "Rome's \"La Sapienza\" university has been targeted by a cyberattack that impacted its IT systems and caused widespread operational disruptions at the educational institute. [...]"
-  },
-  {
-    "source": "BleepingComputer",
-    "category": "general",
-    "title": "Romanian oil pipeline operator Conpet discloses cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/romanian-oil-pipeline-operator-conpet-discloses-cyberattack-qilin-ransomware/",
-    "summary": "Conpet, Romania's national oil pipeline operator, has disclosed that a cyberattack disrupted its business systems and took down the company's website on Tuesday. [...]"
   },
   {
     "source": "CISA Alerts",
