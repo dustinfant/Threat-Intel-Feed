@@ -32,6 +32,10 @@
 # ---------------------------
 # Vendor / Vendor Research
 # ---------------------------
+- name: Huntress
+  url: https://www.huntress.com/blog/rss.xml
+  category: Vendor
+
 - name: Check Point Research
   url: https://research.checkpoint.com/feed/
   category: Vendor
