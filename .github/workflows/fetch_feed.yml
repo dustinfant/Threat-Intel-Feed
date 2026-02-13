@@ -44,13 +44,13 @@ jobs:
         run: |
           python fetcher/fetch_normalized_auto.py || true
 
-      # 6️⃣ Commit updated feed safely (ignore errors if nothing changed)
+            # 6️⃣ Commit updated feed safely (force push)
       - name: Commit updated feed
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "actions@github.com"
           git add data/feed_normalized.json
           git diff-index --quiet HEAD || git commit -m "Update feed_normalized.json" || true
-          git push || true
+          git push --force origin main || true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
