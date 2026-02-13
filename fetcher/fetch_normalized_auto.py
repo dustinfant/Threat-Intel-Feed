@@ -1,31 +1,21 @@
-#!/usr/bin/env python3
-"""
-fetch_normalized_auto.py
+# fetcher/fetch_normalized_auto.py
 
-Fetches and normalizes threat intel feeds.
-Designed to safely run in GitHub Actions without failing the workflow.
-"""
+def run_all():
+    total_sources = 0
+    total_iocs = 0
 
-import sys
-import traceback
-from fetch_normalized import main as fetch_main  # your existing fetch function
+    sources = ["source1", "source2", "source3"]  # replace with actual sources
+    for source in sources:
+        try:
+            # Replace this with your actual fetch call
+            iocs = fetch_source(source)  
+            total_iocs += len(iocs)
+            total_sources += 1
+            print(f"[+] Fetched {len(iocs)} indicators from {source}")
+        except Exception as e:
+            print(f"[!] Error fetching {source}: {e}")
 
-def run_fetcher():
-    """
-    Runs the main fetcher function with error handling
-    to prevent non-zero exit codes in CI.
-    """
-    try:
-        fetch_main()  # call your existing fetch logic
-        print("✅ Fetcher completed successfully.")
-    except Exception as e:
-        print("⚠ Warning: Fetcher encountered an error but will exit 0 for CI.")
-        print(f"Error details: {e}")
-        traceback.print_exc()
-    finally:
-        # Always exit 0 so GitHub Actions doesn't mark the step as failed
-        sys.exit(0)
-
-if __name__ == "__main__":
-    run_fetcher()
+    print("\n--- Summary ---")
+    print(f"Total sources fetched: {total_sources}")
+    print(f"Total indicators fetched: {total_iocs}")
 
