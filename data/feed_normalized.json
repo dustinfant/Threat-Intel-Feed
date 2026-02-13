@@ -1,5 +1,23 @@
 [
   {
+    "title": "Got a TCL TV? Change these 16 settings ASAP - here's why",
+    "link": "https://www.zdnet.com/article/tcl-tv-settings-change-asap-why/",
+    "summary": "Got a TCL TV? Change these 16 settings ASAP - here's why | ZDNET X Trending CES live updates 2026: TVs, laptops, and weird gadgets These smart glasses beat the Meta Ray-Bans 6 most exciting products at CES that you can already buy today 5 most exciting TVs we saw at CES 2026 This handheld e-reader has effectively replaced my Kindle The most exciting AI wearable at CES 2026 might not be smart glasses after all I wore the world's first HDR10 smart glasses TCL's new E Ink tablet beats the Remarkable and Kindle Anker's new charger is one of the most unique I've ever seen Best laptop cooling pads B\u2026",
+    "published": "Fri, 13 Feb 2026 20:20:00 GMT",
+    "source": "ZDNet Security",
+    "category": "General",
+    "iocs": {}
+  },
+  {
+    "title": "Why my favorite Linux distro is slowing down - and I'm thrilled about it",
+    "link": "https://www.zdnet.com/article/whats-coming-next-for-linux-mint/",
+    "summary": "Why my favorite Linux distro is slowing down - and I'm thrilled about it | ZDNET X Trending CES live updates 2026: TVs, laptops, and weird gadgets These smart glasses beat the Meta Ray-Bans 6 most exciting products at CES that you can already buy today 5 most exciting TVs we saw at CES 2026 This handheld e-reader has effectively replaced my Kindle The most exciting AI wearable at CES 2026 might not be smart glasses after all I wore the world's first HDR10 smart glasses TCL's new E Ink tablet beats the Remarkable and Kindle Anker's new charger is one of the most unique I've ever seen Best lapto\u2026",
+    "published": "Fri, 13 Feb 2026 20:10:46 GMT",
+    "source": "ZDNet Security",
+    "category": "General",
+    "iocs": {}
+  },
+  {
     "title": "How to download YouTube videos for free - 2 easy and reliable methods I always use",
     "link": "https://www.zdnet.com/article/how-i-download-youtube-videos-for-free/",
     "summary": "How to download YouTube videos for free - 2 easy and reliable methods I always use | ZDNET X Trending CES live updates 2026: TVs, laptops, and weird gadgets These smart glasses beat the Meta Ray-Bans 6 most exciting products at CES that you can already buy today 5 most exciting TVs we saw at CES 2026 This handheld e-reader has effectively replaced my Kindle The most exciting AI wearable at CES 2026 might not be smart glasses after all I wore the world's first HDR10 smart glasses TCL's new E Ink tablet beats the Remarkable and Kindle Anker's new charger is one of the most unique I've ever seen \u2026",
@@ -8,6 +26,7 @@
     "category": "General",
     "iocs": {
       "domain": [
+        "ClipGrab.org",
         "youtube.com"
       ]
     }
@@ -35,31 +54,23 @@
     "iocs": {}
   },
   {
-    "title": "I replaced my Meta Ray-Bans with the Oakleys for a week - and they're better in every way",
-    "link": "https://www.zdnet.com/article/meta-oakley-hstn-smart-glasses-review/",
-    "summary": "I replaced my Meta Ray-Bans with the Oakleys for a week - and they're better in every way | ZDNET X Trending CES live updates 2026: TVs, laptops, and weird gadgets These smart glasses beat the Meta Ray-Bans 6 most exciting products at CES that you can already buy today 5 most exciting TVs we saw at CES 2026 This handheld e-reader has effectively replaced my Kindle The most exciting AI wearable at CES 2026 might not be smart glasses after all I wore the world's first HDR10 smart glasses TCL's new E Ink tablet beats the Remarkable and Kindle Anker's new charger is one of the most unique I've eve\u2026",
-    "published": "Fri, 13 Feb 2026 18:10:00 GMT",
-    "source": "ZDNet Security",
+    "title": "Claude LLM artifacts abused to push Mac infostealers in ClickFix attack",
+    "link": "https://www.bleepingcomputer.com/news/security/claude-llm-artifacts-abused-to-push-mac-infostealers-in-clickfix-attack/",
+    "summary": "Claude LLM artifacts abused to push Mac infostealers in ClickFix attack News Featured Latest Microsoft: New Windows LNK spoofing issues aren't vulnerabilities Fake AI Chrome extensions with 300K users steal credentials, emails Apple fixes zero-day flaw used in 'extremely sophisticated' attacks Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws Claude LLM artifacts abused to push Mac infostealers in ClickFix attack Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches Turning IBM QRadar Alerts into Action with Criminal IP CISA flags critical Microsoft SCCM flaw as\u2026",
+    "published": "Fri, 13 Feb 2026 15:21:43 -0500",
+    "source": "BleepingComputer",
     "category": "General",
     "iocs": {
       "domain": [
-        "pic.twitter.com"
+        "claude.ai",
+        "osalogging.zip"
       ]
     }
   },
   {
-    "title": "The best early Presidents' Day TV sales live now",
-    "link": "https://www.zdnet.com/article/early-presidents-day-tv-deals-2026/",
-    "summary": "The best early Presidents' Day TV sales live now | ZDNET X Trending CES live updates 2026: TVs, laptops, and weird gadgets These smart glasses beat the Meta Ray-Bans 6 most exciting products at CES that you can already buy today 5 most exciting TVs we saw at CES 2026 This handheld e-reader has effectively replaced my Kindle The most exciting AI wearable at CES 2026 might not be smart glasses after all I wore the world's first HDR10 smart glasses TCL's new E Ink tablet beats the Remarkable and Kindle Anker's new charger is one of the most unique I've ever seen Best laptop cooling pads Best flip\u2026",
-    "published": "Fri, 13 Feb 2026 17:45:00 GMT",
-    "source": "ZDNet Security",
-    "category": "General",
-    "iocs": {}
-  },
-  {
     "title": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches",
     "link": "https://www.bleepingcomputer.com/news/security/louis-vuitton-dior-and-tiffany-fined-25-million-over-data-breaches/",
-    "summary": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches News Featured Latest Microsoft: New Windows LNK spoofing issues aren't vulnerabilities Fake AI Chrome extensions with 300K users steal credentials, emails Apple fixes zero-day flaw used in 'extremely sophisticated' attacks Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches Turning IBM QRadar Alerts into Action with Criminal IP CISA flags critical Microsoft SCCM flaw as exploited in attacks Block ads and trackers on 9 devices for $16 in this \u2026",
+    "summary": "Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches News Featured Latest Microsoft: New Windows LNK spoofing issues aren't vulnerabilities Fake AI Chrome extensions with 300K users steal credentials, emails Apple fixes zero-day flaw used in 'extremely sophisticated' attacks Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws Claude LLM artifacts abused to push Mac infostealers in ClickFix attack Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches Turning IBM QRadar Alerts into Action with Criminal IP CISA flags critical Microsoft SCCM flaw as e\u2026",
     "published": "Fri, 13 Feb 2026 13:35:15 -0500",
     "source": "BleepingComputer",
     "category": "General",
@@ -68,7 +79,7 @@
   {
     "title": "Turning IBM QRadar Alerts into Action with Criminal IP",
     "link": "https://www.bleepingcomputer.com/news/security/turning-ibm-qradar-alerts-into-action-with-criminal-ip/",
-    "summary": "Turning IBM QRadar Alerts into Action with Criminal IP News Featured Latest Microsoft: New Windows LNK spoofing issues aren't vulnerabilities Fake AI Chrome extensions with 300K users steal credentials, emails Apple fixes zero-day flaw used in 'extremely sophisticated' attacks Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches Turning IBM QRadar Alerts into Action with Criminal IP CISA flags critical Microsoft SCCM flaw as exploited in attacks Block ads and trackers on 9 devices for $16 in this AdGuard deal Tu\u2026",
+    "summary": "Turning IBM QRadar Alerts into Action with Criminal IP News Featured Latest Microsoft: New Windows LNK spoofing issues aren't vulnerabilities Fake AI Chrome extensions with 300K users steal credentials, emails Apple fixes zero-day flaw used in 'extremely sophisticated' attacks Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws Claude LLM artifacts abused to push Mac infostealers in ClickFix attack Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches Turning IBM QRadar Alerts into Action with Criminal IP CISA flags critical Microsoft SCCM flaw as exploited in att\u2026",
     "published": "Fri, 13 Feb 2026 10:05:15 -0500",
     "source": "BleepingComputer",
     "category": "General",
@@ -81,7 +92,7 @@
   {
     "title": "CISA flags critical Microsoft SCCM flaw as exploited in attacks",
     "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-microsoft-configmgr-rce-flaw-as-exploited-in-attacks/",
-    "summary": "CISA flags critical Microsoft SCCM flaw as exploited in attacks News Featured Latest Microsoft: New Windows LNK spoofing issues aren't vulnerabilities Fake AI Chrome extensions with 300K users steal credentials, emails Apple fixes zero-day flaw used in 'extremely sophisticated' attacks Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches Turning IBM QRadar Alerts into Action with Criminal IP CISA flags critical Microsoft SCCM flaw as exploited in attacks Block ads and trackers on 9 devices for $16 in this AdGuar\u2026",
+    "summary": "CISA flags critical Microsoft SCCM flaw as exploited in attacks News Featured Latest Microsoft: New Windows LNK spoofing issues aren't vulnerabilities Fake AI Chrome extensions with 300K users steal credentials, emails Apple fixes zero-day flaw used in 'extremely sophisticated' attacks Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws Claude LLM artifacts abused to push Mac infostealers in ClickFix attack Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches Turning IBM QRadar Alerts into Action with Criminal IP CISA flags critical Microsoft SCCM flaw as exploit\u2026",
     "published": "Fri, 13 Feb 2026 07:35:09 -0500",
     "source": "BleepingComputer",
     "category": "General",
@@ -94,25 +105,11 @@
   {
     "title": "Microsoft fixes bug that blocked Google Chrome from launching",
     "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-family-safety-bug-that-blocks-google-chrome-from-launching/",
-    "summary": "Microsoft fixes bug that blocked Google Chrome from launching News Featured Latest Microsoft: New Windows LNK spoofing issues aren't vulnerabilities Fake AI Chrome extensions with 300K users steal credentials, emails Apple fixes zero-day flaw used in 'extremely sophisticated' attacks Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches Turning IBM QRadar Alerts into Action with Criminal IP CISA flags critical Microsoft SCCM flaw as exploited in attacks Block ads and trackers on 9 devices for $16 in this AdGuard \u2026",
+    "summary": "Microsoft fixes bug that blocked Google Chrome from launching News Featured Latest Microsoft: New Windows LNK spoofing issues aren't vulnerabilities Fake AI Chrome extensions with 300K users steal credentials, emails Apple fixes zero-day flaw used in 'extremely sophisticated' attacks Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws Claude LLM artifacts abused to push Mac infostealers in ClickFix attack Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches Turning IBM QRadar Alerts into Action with Criminal IP CISA flags critical Microsoft SCCM flaw as exploited\u2026",
     "published": "Fri, 13 Feb 2026 04:31:01 -0500",
     "source": "BleepingComputer",
     "category": "General",
     "iocs": {}
-  },
-  {
-    "title": "Russia tries to block WhatsApp, Telegram in communication blockade",
-    "link": "https://www.bleepingcomputer.com/news/security/russia-tries-to-block-whatsapp-telegram-in-communication-blockade/",
-    "summary": "Russia tries to block WhatsApp, Telegram in communication blockade News Featured Latest Microsoft: New Windows LNK spoofing issues aren't vulnerabilities Fake AI Chrome extensions with 300K users steal credentials, emails Apple fixes zero-day flaw used in 'extremely sophisticated' attacks Microsoft February 2026 Patch Tuesday fixes 6 zero-days, 58 flaws Louis Vuitton, Dior, and Tiffany fined $25 million over data breaches Turning IBM QRadar Alerts into Action with Criminal IP CISA flags critical Microsoft SCCM flaw as exploited in attacks Block ads and trackers on 9 devices for $16 in this AdG\u2026",
-    "published": "Thu, 12 Feb 2026 17:57:54 -0500",
-    "source": "BleepingComputer",
-    "category": "General",
-    "iocs": {
-      "domain": [
-        "web.whatsapp.com",
-        "whatsapp.com"
-      ]
-    }
   },
   {
     "title": "What Interoperability in Healthcare Really Means for Security and Privacy",
@@ -931,6 +928,27 @@
     }
   },
   {
+    "title": "Metasploit Wrap-Up 02/13/2026",
+    "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-02-13-2026",
+    "summary": "Metasploit Wrap-Up 02/13/2026 Platform Services Resources Partners Company Request Demo Back to Blog Products and Tools Metasploit Wrap-Up 02/13/2026 Christopher Granleese Feb 13, 2026 | Last updated on Feb 13, 2026 | xx min read SolarWinds Web Help Desk Our very own sfewer-r7 has developed an exploit module for the SolarWinds Web Help Desk vulnerabilities CVE-2025-40536 and CVE-2025-40551. On successful exploitation the session will be as running as NT AUTHORITY\\SYSTEM. For more information see the Rapid7\u2019s SolarWinds Web Help Desk Vulnerabilities guidance . Contributions A big thanks to our \u2026",
+    "published": "Fri, 13 Feb 2026 20:01:55 GMT",
+    "source": "Rapid7 Security",
+    "category": "Vendor",
+    "iocs": {
+      "cve": [
+        "CVE-2025-14558",
+        "CVE-2025-40536",
+        "CVE-2025-40551",
+        "CVE-2026-1281",
+        "CVE-2026-1340",
+        "CVE-2026-24061"
+      ],
+      "domain": [
+        "docs.metasploit.com"
+      ]
+    }
+  },
+  {
     "title": "Carding-as-a-Service: The Underground Market of Stolen Cards",
     "link": "https://www.rapid7.com/blog/post/tr-carding-as-a-service-stolen-credit-cards-fraud",
     "summary": "Carding-as-a-Service: The Underground Market of Stolen Cards Platform Services Resources Partners Company Request Demo Back to Blog Threat Research Carding-as-a-Service: The Underground Market of Stolen Cards Alexandra Blia | Maor Weinberger | Gal Givon Feb 12, 2026 | Last updated on Feb 12, 2026 | xx min read DISCOVER RAPID7 MDR Rapid7 software engineer Eliran Alon also contributed to this post. Introduction Despite sustained efforts by the global banking and payments industry, credit card fraud continues to affect consumers and organizations on a large scale. Underground \u201cdump shops\u201d play a \u2026",
@@ -1041,19 +1059,6 @@
     }
   },
   {
-    "title": "Vulnerability Found in InsightVM & Nexpose: CVE-2026-1814 (FIXED)",
-    "link": "https://www.rapid7.com/blog/post/ve-insightvm-nexpose-vulnerability-cve-2026-1814-fixed",
-    "summary": "(FIXED) Vulnerability found in InsightVM & Nexpose: CVE-2026-1814 Platform Services Resources Partners Company Request Demo Back to Blog Vulnerabilities and Exploits Vulnerability Found in InsightVM & Nexpose: CVE-2026-1814 (FIXED) Rapid7 Feb 9, 2026 | Last updated on Feb 9, 2026 | xx min read We are grateful to the research team at Atredis for sharing their findings around a vulnerability ( CVE-2026-1814 ) impacting our vulnerability management offerings (InsightVM and Nexpose). We have identified a fix that addresses this vulnerability and will be delivered via a Security Console product upd\u2026",
-    "published": "Mon, 09 Feb 2026 19:00:00 GMT",
-    "source": "Rapid7 Security",
-    "category": "Vendor",
-    "iocs": {
-      "cve": [
-        "CVE-2026-1814"
-      ]
-    }
-  },
-  {
     "title": "Bitcoin trading firm CEO gets 20 years for operating $200 million Ponzi scheme",
     "link": "https://www.helpnetsecurity.com/2026/02/13/bitcoin-prison-200-million-ponzi-scheme/",
     "summary": "Bitcoin trading firm CEO gets 20 years for operating $200 million Ponzi scheme - Help Net Security Help Net Security newsletters : Daily and weekly news, cybersecurity jobs, open source projects, breaking news \u2013 subscribe here! News Features CISO AI Videos Product showcase Industry news Reviews Whitepapers Events Newsletters Please turn on your JavaScript for this page to function normally. Sinisa Markovic , Senior Staff Writer, Help Net Security February 13, 2026 Share Bitcoin trading firm CEO gets 20 years for operating $200 million Ponzi scheme The U.S. Department of Justice sentenced the C\u2026",
@@ -1062,7 +1067,7 @@
     "category": "Vendor",
     "iocs": {
       "cve": [
-        "CVE-2026-20700",
+        "CVE-2026-1731",
         "CVE-2026-20841"
       ]
     }
@@ -1078,7 +1083,6 @@
       "cve": [
         "CVE-2024-12356",
         "CVE-2026-1731",
-        "CVE-2026-20700",
         "CVE-2026-20841"
       ]
     }
@@ -1092,7 +1096,7 @@
     "category": "Vendor",
     "iocs": {
       "cve": [
-        "CVE-2026-20700",
+        "CVE-2026-1731",
         "CVE-2026-20841"
       ]
     }
@@ -1106,7 +1110,7 @@
     "category": "Vendor",
     "iocs": {
       "cve": [
-        "CVE-2026-20700",
+        "CVE-2026-1731",
         "CVE-2026-20841"
       ]
     }
@@ -1120,7 +1124,7 @@
     "category": "Vendor",
     "iocs": {
       "cve": [
-        "CVE-2026-20700",
+        "CVE-2026-1731",
         "CVE-2026-20841"
       ]
     }
@@ -1519,6 +1523,19 @@
     }
   },
   {
+    "title": "Friday Squid Blogging: Do Squid Dream?",
+    "link": "https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-do-squid-dream.html",
+    "summary": "Friday Squid Blogging: Do Squid Dream? - Schneier on Security Schneier on Security Menu Blog Newsletter Books Essays News Talks Academic About Me Search Powered by DuckDuckGo Blog Essays Whole site Subscribe Home Blog Friday Squid Blogging: Do Squid Dream? An exploration of the interesting question. Tags: squid Posted on February 13, 2026 at 5:08 PM \u2022 0 Comments Subscribe to comments on this entry Leave a comment Cancel reply Blog moderation policy Login Name Email URL: Remember personal info? Fill in the blank: the name of this blog is Schneier on ___________ (required): Comments: Allowed HTM\u2026",
+    "published": "2026-02-13T22:08:39Z",
+    "source": "Schneier on Security",
+    "category": "Research",
+    "iocs": {
+      "domain": [
+        "michelf.ca"
+      ]
+    }
+  },
+  {
     "title": "3D Printer Surveillance",
     "link": "https://www.schneier.com/blog/archives/2026/02/3d-printer-surveillance.html",
     "summary": "3D Printer Surveillance - Schneier on Security Schneier on Security Menu Blog Newsletter Books Essays News Talks Academic About Me Search Powered by DuckDuckGo Blog Essays Whole site Subscribe Home Blog 3D Printer Surveillance New York is contemplating a bill that adds surveillance to 3D printers: New York\u2019s 2026\u00ad2027 executive budget bill (S.9005 / A.10005) includes language that should alarm every maker, educator, and small manufacturer in the state. Buried in Part C is a provision requiring all 3D printers sold or delivered in New York to include \u201cblocking technology.\u201d This is defined as so\u2026",
@@ -1579,15 +1596,6 @@
         "www.politico.com"
       ]
     }
-  },
-  {
-    "title": "LLMs are Getting a Lot Better and Faster at Finding and Exploiting Zero-Days",
-    "link": "https://www.schneier.com/blog/archives/2026/02/llms-are-getting-a-lot-better-and-faster-at-finding-and-exploiting-zero-days.html",
-    "summary": "This is amazing : Opus 4.6 is notably better at finding high-severity vulnerabilities than previous models and a sign of how quickly things are moving. Security teams have been automating vulnerability discovery for years, investing heavily in fuzzing infrastructure and custom harnesses to find bugs at scale. But what stood out in early testing is how quickly Opus 4.6 found vulnerabilities out of the box without task-specific tooling, custom scaffolding, or specialized prompting. Even more interesting is how it found them. Fuzzers work by throwing massive amounts of random inputs at code to se\u2026",
-    "published": "2026-02-09T12:04:29Z",
-    "source": "Schneier on Security",
-    "category": "Research",
-    "iocs": {}
   },
   {
     "title": "How to find and remove credential-stealing Chrome extensions",
