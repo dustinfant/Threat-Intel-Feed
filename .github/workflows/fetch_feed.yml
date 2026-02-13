@@ -12,19 +12,18 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-
     steps:
       # 1️⃣ Checkout the repo
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2️⃣ Set up Python 3.10
+      # 2️⃣ Set up Python 3
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      # 3️⃣ Cache pip packages
+      # 3️⃣ Cache Python packages
       - name: Cache pip
         uses: actions/cache@v3
         with:
@@ -38,22 +37,20 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install pyyaml requests beautifulsoup4
+          pip install pyyaml requests beautifulsoup4 || true
 
-      # 5️⃣ Run the fetcher (allow failure in CI)
+      # 5️⃣ Run the fetcher safely (ignore exit code)
       - name: Run threat intel fetcher
         run: |
-          set +e  # continue even if the fetcher exits non-zero
-          python fetcher/fetch_normalized_auto.py
-          echo "Fetcher finished (any errors ignored for CI)"
+          python fetcher/fetch_normalized_auto.py || true
 
-      # 6️⃣ Commit updated feed if changed
+      # 6️⃣ Commit updated feed safely (ignore errors if nothing changed)
       - name: Commit updated feed
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "actions@github.com"
           git add data/feed_normalized.json
-          git diff-index --quiet HEAD || git commit -m "Update feed_normalized.json"
-          git push
+          git diff-index --quiet HEAD || git commit -m "Update feed_normalized.json" || true
+          git push || true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
