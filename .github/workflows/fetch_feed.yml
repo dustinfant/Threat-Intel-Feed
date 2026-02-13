@@ -1,10 +1,9 @@
 name: Fetch Threat Intel Feed
 
-# Run every hour + manual trigger
 on:
   schedule:
     - cron: '0 * * * *'  # every hour
-  workflow_dispatch:  # manual trigger
+  workflow_dispatch:
 
 permissions:
   contents: write  # allows committing updated feed
@@ -51,7 +50,7 @@ try:
     fetcher.run_all()  # make sure your fetcher has a run_all() entry point
 except Exception as e:
     print("Fetcher encountered an error:", e, file=sys.stderr)
-    sys.exit(0)  # always exit 0 so workflow continues
+    sys.exit(0)  # exit 0 so workflow continues
 EOF
 
       # 6️⃣ Commit updated feed if changed
@@ -61,7 +60,6 @@ EOF
           git config --local user.email "actions@github.com"
           git add data/feed_normalized.json
           git diff-index --quiet HEAD || git commit -m "Update feed_normalized.json"
-          # Pull remote first to avoid rejected push
           git pull --rebase origin main
           git push origin main
         env:
