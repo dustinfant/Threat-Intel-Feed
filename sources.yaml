@@ -25,10 +25,6 @@
   url: https://www.securityweek.com/feed/
   category: General
 
-- name: BleepingComputer Threat Intel
-  url: https://www.bleepingcomputer.com/feed/
-  category: General
-
 # ---------------------------
 # Vendor / Vendor Research
 # ---------------------------
@@ -117,3 +113,4 @@
 - name: SANS Internet Storm Center
   url: https://isc.sans.edu/rssfeed.xml
   category: Government
+

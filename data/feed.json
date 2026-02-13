@@ -1,0 +1,82 @@
+{
+    "General": [
+        {
+            "name": "Dark Reading",
+            "url": "https://www.darkreading.com/rss.xml",
+            "description": ""
+        },
+        {
+            "name": "The Hacker News",
+            "url": "https://feeds.feedburner.com/TheHackersNews",
+            "description": ""
+        },
+        {
+            "name": "BleepingComputer",
+            "url": "https://www.bleepingcomputer.com/feed/",
+            "description": ""
+        },
+        {
+            "name": "Cyber Defense Magazine",
+            "url": "https://www.cyberdefensemagazine.com/",
+            "description": ""
+        },
+        {
+            "name": "Security Blue Team",
+            "url": "https://www.securityblue.team/blog",
+            "description": ""
+        }
+    ],
+    "Investigative": [
+        {
+            "name": "Krebs on Security",
+            "url": "https://krebsonsecurity.com/feed/",
+            "description": ""
+        }
+    ],
+    "Government": [
+        {
+            "name": "CISA Alerts",
+            "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+            "description": ""
+        }
+    ],
+    "Research": [
+        {
+            "name": "SANS Internet Storm Center",
+            "url": "https://isc.sans.edu/rssfeed.xml",
+            "description": ""
+        },
+        {
+            "name": "Unit 42",
+            "url": "https://unit42.paloaltonetworks.com/feed/",
+            "description": ""
+        },
+        {
+            "name": "Cyber Security News",
+            "url": "https://cybersecuritynews.com/category/threats/",
+            "description": ""
+        },
+        {
+            "name": "The Cyber Edition",
+            "url": "https://thecyberedition.com/",
+            "description": ""
+        }
+    ],
+    "Vendor": [
+        {
+            "name": "CrowdStrike Blog",
+            "url": "https://www.crowdstrike.com/blog/feed/",
+            "description": ""
+        },
+        {
+            "name": "Proofpoint Blog",
+            "url": "https://www.proofpoint.com/us/rss.xml",
+            "description": ""
+        },
+        {
+            "name": "Halcyon",
+            "url": "https://www.halcyon.ai/blog",
+            "description": ""
+        }
+    ]
+}

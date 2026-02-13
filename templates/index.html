@@ -1,141 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Threat Intelligence Dashboard</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #121212;
-      color: #e0e0e0;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #1f1f1f;
-      padding: 1rem;
-      text-align: center;
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #00bfff;
-    }
-    .filters {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-      padding: 1rem;
-      background-color: #1a1a1a;
-      justify-content: center;
-    }
-    .filters select {
-      padding: 0.5rem;
-      font-size: 1rem;
-      background-color: #2a2a2a;
-      color: #e0e0e0;
-      border: 1px solid #444;
-      border-radius: 5px;
-    }
-    .feed-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-      gap: 1rem;
-      padding: 1rem;
-    }
-    .feed-card {
-      background-color: #1f1f1f;
-      border-radius: 10px;
-      padding: 1rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    .feed-card h2 {
-      font-size: 1.1rem;
-      margin: 0 0 0.5rem 0;
-      color: #00bfff;
-    }
-    .feed-card p {
-      font-size: 0.9rem;
-      line-height: 1.3rem;
-      margin: 0.5rem 0;
-    }
-    .feed-meta {
-      font-size: 0.8rem;
-      color: #aaa;
-      margin-top: auto;
-    }
-    .tag {
-      background-color: #444;
-      color: #fff;
-      padding: 0.2rem 0.5rem;
-      border-radius: 3px;
-      font-size: 0.7rem;
-      margin-right: 0.3rem;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Threat Intelligence Dashboard</title>
+
+<style>
+body {
+  background:#121212;
+  color:#e0e0e0;
+  font-family: Arial, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+header {
+  text-align:center;
+  padding:1rem;
+  font-size:1.6rem;
+  color:#7CFC98;
+}
+
+.controls {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:0.75rem;
+  padding:0.75rem;
+  background:#1a1a1a;
+}
+
+.controls select,
+.controls button {
+  padding:0.5rem 0.75rem;
+  font-size:0.9rem;
+  background:#2a2a2a;
+  color:#e0e0e0;
+  border-radius:6px;
+  border:1px solid #444;
+  cursor:pointer;
+}
+
+.controls button:hover {
+  background:#333;
+}
+
+.feed-grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(360px,1fr));
+  gap:1rem;
+  padding:1rem;
+}
+
+.feed-card {
+  background:#1e1e1e;
+  border-radius:10px;
+  padding:1rem;
+}
+
+.feed-card h2 a {
+  color:#7CFC98;
+  text-decoration:none;
+}
+
+.feed-card h2 a:hover {
+  text-decoration:underline;
+}
+
+.feed-meta {
+  font-size:0.8rem;
+  color:#bb86fc;
+  margin-top:0.5rem;
+}
+
+.iocs {
+  margin-top:0.8rem;
+  font-family:monospace;
+  font-size:0.8rem;
+  color:#7CFC98;
+}
+
+.ioc-type {
+  color:#bb86fc;
+  font-weight:bold;
+}
+</style>
 </head>
+
 <body>
-  <header>Threat Intelligence Dashboard</header>
 
-  <div class="filters">
-    <select id="categoryFilter">
-      <option value="all">All Categories</option>
-      {% for category in grouped.keys() %}
-        <option value="{{ category }}">{{ category }}</option>
-      {% endfor %}
-    </select>
+<header>Threat Intelligence Dashboard</header>
 
-    <select id="sourceFilter">
-      <option value="all">All Sources</option>
-      {% for source in sources %}
-        <option value="{{ source }}">{{ source }}</option>
-      {% endfor %}
-    </select>
-  </div>
-
-  <div class="feed-grid" id="feedGrid">
-    {% for category, feeds in grouped.items() %}
-      {% for feed in feeds %}
-      <div class="feed-card" data-category="{{ category }}" data-source="{{ feed.source }}">
-        <h2><a href="{{ feed.link }}" target="_blank" style="color:#00bfff; text-decoration:none;">{{ feed.title }}</a></h2>
-        <p>{{ feed.summary|safe }}</p>
-        <div class="feed-meta">
-          Source: {{ feed.source }} | Published: {{ feed.published }}<br>
-          {% if feed.tags %}
-            {% for tag in feed.tags %}
-              <span class="tag">{{ tag }}</span>
-            {% endfor %}
-          {% endif %}
-        </div>
-      </div>
-      {% endfor %}
+<div class="controls">
+  <select id="categoryFilter">
+    <option value="all">All Categories</option>
+    {% for category in grouped.keys() %}
+    <option value="{{ category }}">{{ category }}</option>
     {% endfor %}
+  </select>
+
+  <select id="sourceFilter">
+    <option value="all">All Sources</option>
+    {% for source in sources %}
+    <option value="{{ source }}">{{ source }}</option>
+    {% endfor %}
+  </select>
+
+  <button id="iocToggle">Only Show Entries With IOCs</button>
+
+  <button onclick="window.location='/export/csv'">
+    Export IOCs to CSV
+  </button>
+
+  <button onclick="window.location='/export/stix'">
+    Export IOCs to STIX
+  </button>
+</div>
+
+<div class="feed-grid" id="feedGrid">
+{% for category, feeds in grouped.items() %}
+  {% for feed in feeds %}
+  <div class="feed-card"
+       data-category="{{ category }}"
+       data-source="{{ feed.source }}"
+       data-has-iocs="{{ 'true' if feed.iocs else 'false' }}">
+
+    <h2>
+      <a href="{{ feed.link }}" target="_blank">
+        {{ feed.title }}
+      </a>
+    </h2>
+
+    <p>{{ feed.summary }}</p>
+
+    {% if feed.iocs %}
+    <div class="iocs">
+      {% for k, v in feed.iocs.items() %}
+        <div class="ioc-type">{{ k.upper() }}</div>
+        {% for item in v %}
+          <div>{{ item }}</div>
+        {% endfor %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="feed-meta">
+      Source: {{ feed.source }} | Published: {{ feed.published }}
+    </div>
   </div>
+  {% endfor %}
+{% endfor %}
+</div>
 
-  <script>
-    const categoryFilter = document.getElementById("categoryFilter");
-    const sourceFilter = document.getElementById("sourceFilter");
-    const feedGrid = document.getElementById("feedGrid");
-    const cards = Array.from(feedGrid.children);
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const categoryFilter = document.getElementById("categoryFilter");
+  const sourceFilter = document.getElementById("sourceFilter");
+  const iocToggle = document.getElementById("iocToggle");
+  const cards = document.querySelectorAll(".feed-card");
 
-    function filterFeeds() {
-      const category = categoryFilter.value;
-      const source = sourceFilter.value;
+  let onlyIocs = false;
 
-      cards.forEach(card => {
-        const matchCategory = category === "all" || card.dataset.category === category;
-        const matchSource = source === "all" || card.dataset.source === source;
+  function applyFilters() {
+    const category = categoryFilter.value;
+    const source = sourceFilter.value;
 
-        card.style.display = (matchCategory && matchSource) ? "block" : "none";
-      });
-    }
+    cards.forEach(card => {
+      const matchCategory =
+        category === "all" || card.dataset.category === category;
+      const matchSource =
+        source === "all" || card.dataset.source === source;
+      const matchIocs =
+        !onlyIocs || card.dataset.hasIocs === "true";
 
-    categoryFilter.addEventListener("change", filterFeeds);
-    sourceFilter.addEventListener("change", filterFeeds);
-  </script>
+      card.style.display =
+        (matchCategory && matchSource && matchIocs)
+          ? "block"
+          : "none";
+    });
+  }
+
+  categoryFilter.addEventListener("change", applyFilters);
+  sourceFilter.addEventListener("change", applyFilters);
+
+  iocToggle.addEventListener("click", function () {
+    onlyIocs = !onlyIocs;
+    iocToggle.textContent = onlyIocs
+      ? "Show All Entries"
+      : "Only Show Entries With IOCs";
+    applyFilters();
+  });
+});
+</script>
+
 </body>
 </html>
 

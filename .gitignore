@@ -3,14 +3,17 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+venv/
 
 # Logs
 *.log
 
-# Data (optional)
-data/feed.json
-data/feed_normalized.json
+# Cache
+data/cache/
 
-# OS
-.DS_Store
+# Backups
+*.bak
+
+# CSV exports (optional)
+feed_iocs_only.csv
 
