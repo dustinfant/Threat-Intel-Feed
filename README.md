@@ -11,8 +11,7 @@
 📌 Features
 
 • Aggregates multiple threat intelligence sources:
-  Dark Reading, The Hacker News, Krebs on Security,
-  CISA Alerts, SANS ISC, Unit 42, Huntress, Proofpoint, etc.
+  Security Week, CISA Alerts, SANS ISC, Huntress, Check Point, Rapid7, Malwarebytes, HackRead, etc.
 
 • Displays article title, summary, and published date
 
