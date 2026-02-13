@@ -48,19 +48,22 @@ jobs:
 import sys
 try:
     import fetcher.fetch_normalized_auto as fetcher
-    fetcher.run_all()  # your fetcher entry function
+    summary = fetcher.run_all()  # returns dict summary of fetch
+    import json
+    with open("data/fetch_summary.json", "w") as f:
+        json.dump(summary, f, indent=2)
 except Exception as e:
     print("Fetcher encountered an error:", e, file=sys.stderr)
     sys.exit(0)  # always exit 0 so workflow continues
 EOF
 
-      # 6️⃣ Commit updated feed if changed
-      - name: Commit updated feed
+      # 6️⃣ Commit updated feeds and summary
+      - name: Commit updated feeds
         run: |
           git config --local user.name "github-actions"
           git config --local user.email "actions@github.com"
-          git add data/feed_normalized.json
-          git diff-index --quiet HEAD || git commit -m "Update feed_normalized.json"
+          git add data/feed_normalized.json data/fetch_summary.json
+          git diff-index --quiet HEAD || git commit -m "Update feed_normalized.json and fetch_summary.json"
           # Pull remote first to avoid rejected push
           git pull --rebase origin main
           git push origin main
