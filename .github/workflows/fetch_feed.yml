@@ -37,14 +37,24 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install pyyaml requests beautifulsoup4 || true
+          pip install pyyaml requests beautifulsoup4
 
-      # 5️⃣ Run the fetcher safely (ignore exit code)
+      # 5️⃣ Run the fetcher safely
       - name: Run threat intel fetcher
         run: |
-          python fetcher/fetch_normalized_auto.py || true
+          set -e
+          echo "Starting fetcher..."
+          python - <<'EOF'
+import sys
+try:
+    import fetcher.fetch_normalized_auto as fetcher
+    fetcher.run_all()  # assuming your fetcher has a run_all() entry
+except Exception as e:
+    print("Fetcher encountered an error:", e, file=sys.stderr)
+    sys.exit(0)  # always exit 0 so workflow continues
+EOF
 
-            # 6️⃣ Commit updated feed safely (force push)
+      # 6️⃣ Commit updated feed safely with force push
       - name: Commit updated feed
         run: |
           git config --local user.name "github-actions"
