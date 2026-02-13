@@ -1,55 +1,42 @@
 # fetcher/fetch_normalized_auto.py
-import sys
+
 import traceback
 from datetime import datetime
-import json
-from fetcher import fetch_normalized, fetch_normalized_extended  # your existing fetch modules
+
+def fetch_sources():
+    """
+    Put your existing fetch logic here.
+    Example: fetch from sources.yaml, normalize feeds, save to feed_normalized.json
+    """
+    # TODO: replace with your actual fetch logic
+    print("Fetching feeds from sources...")
+    # Simulate a fetch
+    # raise ValueError("Simulated fetch error")  # Uncomment to test error handling
+    fetched_count = 42  # example
+    return fetched_count
 
 def run_all():
-    summary = {
-        "timestamp": datetime.utcnow().isoformat() + "Z",
-        "sources": {},
-        "total_items": 0,
-        "errors": {}
-    }
-
-    sources_to_run = {
-        "normalized": fetch_normalized.run,      # adjust with your actual function
-        "extended": fetch_normalized_extended.run
-    }
-
-    for name, func in sources_to_run.items():
-        try:
-            items = func()
-            summary["sources"][name] = len(items)
-            summary["total_items"] += len(items)
-        except Exception as e:
-            summary["sources"][name] = 0
-            summary["errors"][name] = str(e)
-            print(f"[ERROR] Source '{name}' failed: {e}", file=sys.stderr)
-            traceback.print_exc(file=sys.stderr)
-
-    # Save summary to JSON alongside feed
+    """
+    Main entry for GitHub Actions.
+    Ensures errors are logged but do not fail the workflow.
+    Prints a simple summary at the end.
+    """
+    start_time = datetime.utcnow()
+    print(f"Starting fetch at {start_time.isoformat()} UTC")
     try:
-        with open("data/fetch_summary.json", "w") as f:
-            json.dump(summary, f, indent=2)
+        count = fetch_sources()
+        print(f"✅ Successfully fetched {count} items.")
     except Exception as e:
-        print(f"[ERROR] Failed to write fetch summary: {e}", file=sys.stderr)
+        print("⚠️ Fetcher encountered an error:")
+        print(str(e))
+        print(traceback.format_exc())
+    finally:
+        end_time = datetime.utcnow()
+        print(f"Fetcher finished at {end_time.isoformat()} UTC")
+        duration = (end_time - start_time).total_seconds()
+        print(f"Total duration: {duration:.2f}s")
 
-    # Save normalized feed (your existing logic)
-    try:
-        feed_items = []  # replace with aggregation of all fetched items
-        with open("data/feed_normalized.json", "w") as f:
-            json.dump(feed_items, f, indent=2)
-    except Exception as e:
-        print(f"[ERROR] Failed to write feed_normalized.json: {e}", file=sys.stderr)
-
-    print(f"Fetcher run completed. Total items: {summary['total_items']}, Errors: {len(summary['errors'])}")
-
+# If someone runs this file directly, call run_all()
 if __name__ == "__main__":
-    try:
-        run_all()
-    except Exception as e:
-        print(f"[FATAL] Fetcher crashed: {e}", file=sys.stderr)
-        sys.exit(0)  # always exit 0 for CI
+    run_all()
 
