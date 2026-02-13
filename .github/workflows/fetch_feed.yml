@@ -1,5 +1,6 @@
 name: Fetch Threat Intel Feed
 
+# Run every hour + manual trigger
 on:
   schedule:
     - cron: '0 * * * *'  # every hour
@@ -41,17 +42,8 @@ jobs:
       # 5️⃣ Run the fetcher safely
       - name: Run threat intel fetcher
         run: |
-          set -e
           echo "Starting fetcher..."
-          python - <<'EOF'
-import sys
-try:
-    import fetcher.fetch_normalized_auto as fetcher
-    fetcher.run_all()  # make sure your fetcher has a run_all() entry point
-except Exception as e:
-    print("Fetcher encountered an error:", e, file=sys.stderr)
-    sys.exit(0)  # exit 0 so workflow continues
-EOF
+          python fetcher/fetch_normalized_auto.py || true
 
       # 6️⃣ Commit updated feed if changed
       - name: Commit updated feed
