@@ -22,7 +22,7 @@
 
 • Automated fetching and normalization of RSS feeds
 
-• Export feeds to CSV or STIX using `export_csv.py`
+• Export feeds to CSV or STIX
 
 ────────────────────────────────────────────────────────────
 
