@@ -3,7 +3,7 @@
 
 ⚡ A Python Flask web dashboard that aggregates and displays
    the latest cybersecurity news from multiple RSS feeds.
-   Quickly see titles, summaries, and publication dates of
+   Quickly see titles, summaries, IOCs, and publication dates of
    top threat intelligence sources.
 
 ────────────────────────────────────────────────────────────
