@@ -13,7 +13,7 @@
 • Aggregates multiple threat intelligence sources:
   Security Week, CISA Alerts, SANS ISC, Huntress, Check Point, Rapid7, Malwarebytes, HackRead, etc.
 
-• Displays article title, summary, and published date
+• Displays article title, summary, published date, and IOCs.
 
 • Categorized by type: General, Investigative,
   Government, Research, Vendor
