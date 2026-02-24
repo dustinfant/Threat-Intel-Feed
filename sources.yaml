@@ -28,6 +28,10 @@
 # ---------------------------
 # Vendor / Vendor Research
 # ---------------------------
+- name: ANY.RUN
+  url: https://any.run/cybersecurity-blog/feed
+  category: Vendor
+
 - name: Huntress
   url: https://www.huntress.com/blog/rss.xml
   category: Vendor

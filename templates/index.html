@@ -20,6 +20,14 @@ header {
   color:#7CFC98;
 }
 
+.fetching-banner {
+  text-align:center;
+  padding:0.75rem;
+  background:#bb86fc;
+  color:#121212;
+  font-weight:bold;
+}
+
 .controls {
   display:flex;
   flex-wrap:wrap;
@@ -90,6 +98,12 @@ header {
 
 <header>Threat Intelligence Dashboard</header>
 
+{% if fetching %}
+<div class="fetching-banner">
+  Fetching feeds... Please wait.
+</div>
+{% endif %}
+
 <div class="controls">
   <select id="categoryFilter">
     <option value="all">All Categories</option>
@@ -156,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const categoryFilter = document.getElementById("categoryFilter");
   const sourceFilter = document.getElementById("sourceFilter");
   const iocToggle = document.getElementById("iocToggle");
-  const cards = document.querySelectorAll(".feed-card");
+  const feedGrid = document.getElementById("feedGrid");
 
   let onlyIocs = false;
 
@@ -164,7 +178,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const category = categoryFilter.value;
     const source = sourceFilter.value;
 
-    cards.forEach(card => {
+    document.querySelectorAll(".feed-card").forEach(card => {
       const matchCategory =
         category === "all" || card.dataset.category === category;
       const matchSource =
@@ -181,7 +195,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   categoryFilter.addEventListener("change", applyFilters);
   sourceFilter.addEventListener("change", applyFilters);
-
   iocToggle.addEventListener("click", function () {
     onlyIocs = !onlyIocs;
     iocToggle.textContent = onlyIocs
@@ -189,9 +202,23 @@ document.addEventListener("DOMContentLoaded", function () {
       : "Only Show Entries With IOCs";
     applyFilters();
   });
+
+  // -------------------------
+  // Auto-refresh if feed is empty
+  // -------------------------
+  {% if fetching %}
+  setInterval(function() {
+    fetch("/api/feed")
+      .then(response => response.json())
+      .then(data => {
+        if (data.length > 0) {
+          window.location.reload();
+        }
+      });
+  }, 30000); // every 30 seconds
+  {% endif %}
 });
 </script>
 
 </body>
 </html>
-

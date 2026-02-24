@@ -9,3 +9,12 @@ requests==2.31.0
 
 # YAML support
 PyYAML==6.0
+
+# HTML parsing
+beautifulsoup4==4.12.2
+
+# Domain extraction
+tldextract==3.4.5
+
+# APScheduler
+apscheduler==3.10.5
