@@ -11,7 +11,7 @@
 📌 Features
 
 • Aggregates multiple threat intelligence sources:
-  Security Week, CISA Alerts, SANS ISC, Huntress, Check Point, Rapid7, Malwarebytes, HackRead, etc.
+  Security Week, CISA Alerts, SANS ISC, ANY.RUN, Huntress, Check Point, Rapid7, Malwarebytes, HackRead, etc.
 
 • Displays article title, summary, published date, and IOCs.
 
