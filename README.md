@@ -47,6 +47,8 @@ cd Threat-Intel-Feed
 Install dependencies:
 
 pip install -r requirements.txt
+
+
 📡 Run the Feed Fetcher
 
 Before starting the dashboard, populate the normalized feed:
