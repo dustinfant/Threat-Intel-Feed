@@ -91,7 +91,9 @@ STIX 2.1 Export:
 Add new sources by editing sources.yaml. Each entry contains:
 
 - name: Some Source
+
   url: https://example.com/feed.xml
+
   category: vendor|research|government|general
 
 
