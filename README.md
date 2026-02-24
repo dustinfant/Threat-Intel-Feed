@@ -3,7 +3,7 @@
 
 ⚡ A Python Flask web dashboard that aggregates and displays
    the latest cybersecurity news from multiple RSS feeds.
-   Quickly see titles, summaries, and publication dates of
+   Quickly see titles, summaries, IOCs, and publication dates of
    top threat intelligence sources.
 
 ────────────────────────────────────────────────────────────
@@ -13,7 +13,7 @@
 • Aggregates multiple threat intelligence sources:
   Security Week, CISA Alerts, SANS ISC, Huntress, Check Point, Rapid7, Malwarebytes, HackRead, etc.
 
-• Displays article title, summary, and published date
+• Displays article title, summary, published date, and IOCs.
 
 • Categorized by type: General, Investigative,
   Government, Research, Vendor
@@ -22,7 +22,7 @@
 
 • Automated fetching and normalization of RSS feeds
 
-• Export feeds to CSV or STIX using `export_csv.py`
+• Export feeds to CSV or STIX
 
 ────────────────────────────────────────────────────────────
 
