@@ -17,4 +17,4 @@ beautifulsoup4==4.12.2
 tldextract>=5.0.0
 
 # APScheduler
-apscheduler==3.10.5
+apscheduler>=3.10.5,<4.0

@@ -36,9 +36,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          # Force reinstall tldextract to ensure >=5.0.0
           pip install --upgrade --force-reinstall tldextract
-          # Install remaining requirements (cached if possible)
           pip install --upgrade -r requirements.txt
 
       # 5️⃣ Run the fetcher safely
@@ -47,7 +45,7 @@ jobs:
           echo "Starting fetcher..."
           python fetcher/fetch_normalized_auto.py || true
 
-      # 6️⃣ Commit updated feed if changed
+      # 6️⃣ Commit updated feed only if changed
       - name: Commit updated feed
         run: |
           git config --local user.name "github-actions"
