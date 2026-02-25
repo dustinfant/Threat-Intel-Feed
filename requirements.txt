@@ -14,7 +14,7 @@ PyYAML==6.0
 beautifulsoup4==4.12.2
 
 # Domain extraction
-tldextract==3.4.5
+tldextract>=5.0.0
 
 # APScheduler
 apscheduler==3.10.5
