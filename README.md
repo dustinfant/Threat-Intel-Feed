@@ -95,7 +95,7 @@ Add new sources by editing sources.yaml. Each entry contains:
 
   url: https://example.com/feed.xml
 
-  category: vendor|research|government|general
+  category: Vendor|Research|Government|General
 
 
 🧪 Example Feeds Included
@@ -106,11 +106,14 @@ ZDNet Security (General)
 
 BleepingComputer (General)
 
+ANY RUN (Vendor)
+
+Huntress (Vendor)
+
 Check Point Research (Vendor)
 
 CISA Alerts (Government)
 
-Reddit r/netsec (Community)
 … and more.
 
 
