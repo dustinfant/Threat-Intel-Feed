@@ -28,8 +28,16 @@
 # ---------------------------
 # Vendor / Vendor Research
 # ---------------------------
-- name: ANY.RUN
-  url: https://any.run/cybersecurity-blog/feed
+- name: Mandiant
+  url: https://www.mandiant.com/resources/blog/rss.xml
+  category: Vendor
+
+- name: CrowdStrike
+  url: https://www.crowdstrike.com/blog/feed/
+  category: Vendor
+
+- name: SentinelOne
+  url: https://www.sentinelone.com/blog/feed/
   category: Vendor
 
 - name: Huntress
@@ -48,7 +56,7 @@
   url: https://sed-cms.broadcom.com/rss/v1/blogs/rss.xml
   category: Vendor
 
-- name: Cloudblogs Microsoft Secure
+- name: Microsoft Security Blog
   url: https://cloudblogs.microsoft.com/microsoftsecure/feed/
   category: Vendor
 
@@ -117,4 +125,3 @@
 - name: SANS Internet Storm Center
   url: https://isc.sans.edu/rssfeed.xml
   category: Government
-
