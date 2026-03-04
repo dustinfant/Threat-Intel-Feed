@@ -17,3 +17,4 @@ data/cache/
 # CSV exports (optional)
 feed_iocs_only.csv
 
+data/feed_normalized.json
