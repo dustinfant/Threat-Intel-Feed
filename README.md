@@ -107,8 +107,6 @@ ZDNet Security (General)
 
 BleepingComputer (General)
 
-ANY RUN (Vendor)
-
 Huntress (Vendor)
 
 Check Point Research (Vendor)
