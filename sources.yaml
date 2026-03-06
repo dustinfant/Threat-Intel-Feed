@@ -25,6 +25,10 @@
   url: https://www.securityweek.com/feed/
   category: General
 
+- name: Schneier on Security
+  url: https://www.schneier.com/feed/atom/
+  category: General
+
 # ---------------------------
 # Vendor / Vendor Research
 # ---------------------------
@@ -64,31 +68,19 @@
   url: https://blog.rapid7.com/rss
   category: Vendor
 
-- name: Securonix Blog
-  url: https://www.securonix.com/blog/feed/
-  category: Vendor
-
-- name: Help Net Security
-  url: https://www.helpnetsecurity.com/feed/
-  category: Vendor
-
 # ---------------------------
 # Research / Community / OSINT
 # ---------------------------
+- name: Securonix Blog
+  url: https://www.securonix.com/blog/feed/
+  category: Research
+
+- name: Help Net Security
+  url: https://www.helpnetsecurity.com/feed/
+  category: Research
+
 - name: Securelist (Kaspersky)
   url: https://securelist.com/feed/
-  category: Research
-
-- name: Reddit Netsec
-  url: https://www.reddit.com/r/netsec/.rss
-  category: Research
-
-- name: Reddit Cybersecurity
-  url: https://www.reddit.com/r/cybersecurity/.rss
-  category: Research
-
-- name: Schneier on Security
-  url: https://www.schneier.com/feed/atom/
   category: Research
 
 - name: Malwarebytes Labs
@@ -111,15 +103,15 @@
   url: https://websec.ca/blog_posts/index.rss
   category: Research
 
+- name: Ubuntu Security Notices
+  url: https://www.ubuntu.com/usn/atom.xml
+  category: Research
+
 # ---------------------------
 # Government / Advisories
 # ---------------------------
 - name: CISA Alerts
   url: https://www.cisa.gov/uscert/ncas/alerts.xml
-  category: Government
-
-- name: Ubuntu Security Notices
-  url: https://www.ubuntu.com/usn/atom.xml
   category: Government
 
 - name: SANS Internet Storm Center
