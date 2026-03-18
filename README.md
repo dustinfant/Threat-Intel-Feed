@@ -41,6 +41,7 @@ This tool is ideal for SOC analysts, threat hunters, blue teamers, and cybersecu
 Clone the repository:
 
 git clone https://github.com/dustinfant/Threat-Intel-Feed.git
+
 cd Threat-Intel-Feed
 
 
