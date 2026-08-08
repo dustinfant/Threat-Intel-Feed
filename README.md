@@ -104,6 +104,8 @@ Add new sources by editing sources.yaml. Each entry contains:
 
 Some of the sources currently configured:
 
+Squiblydoo (Research)
+
 ZDNet Security (General)
 
 BleepingComputer (General)
