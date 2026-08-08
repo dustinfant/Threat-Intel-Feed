@@ -3,33 +3,6 @@
 # ===========================
 
 # ---------------------------
-# General / Threat News
-# ---------------------------
-- name: ZDNet Security
-  url: https://www.zdnet.com/topic/security/rss.xml
-  category: General
-
-- name: BleepingComputer
-  url: https://www.bleepingcomputer.com/feed/
-  category: General
-
-- name: HackRead
-  url: https://hackread.com/feed/
-  category: General
-
-- name: Security Magazine - Cybersecurity
-  url: https://www.securitymagazine.com/rss/topic/2236-cybersecurity-news
-  category: General
-
-- name: SecurityWeek
-  url: https://www.securityweek.com/feed/
-  category: General
-
-- name: Schneier on Security
-  url: https://www.schneier.com/feed/atom/
-  category: General
-
-# ---------------------------
 # Vendor / Vendor Research
 # ---------------------------
 - name: Mandiant
@@ -110,6 +83,33 @@
 - name: Ubuntu Security Notices
   url: https://www.ubuntu.com/usn/atom.xml
   category: Research
+
+# ---------------------------
+# General / Threat News
+# ---------------------------
+- name: ZDNet Security
+  url: https://www.zdnet.com/topic/security/rss.xml
+  category: General
+
+- name: BleepingComputer
+  url: https://www.bleepingcomputer.com/feed/
+  category: General
+
+- name: HackRead
+  url: https://hackread.com/feed/
+  category: General
+
+- name: Security Magazine - Cybersecurity
+  url: https://www.securitymagazine.com/rss/topic/2236-cybersecurity-news
+  category: General
+
+- name: SecurityWeek
+  url: https://www.securityweek.com/feed/
+  category: General
+
+- name: Schneier on Security
+  url: https://www.schneier.com/feed/atom/
+  category: General  
 
 # ---------------------------
 # Government / Advisories
