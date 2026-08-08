@@ -71,6 +71,10 @@
 # ---------------------------
 # Research / Community / OSINT
 # ---------------------------
+- name: Squiblydoo Blog
+    url: https://squiblydoo.blog/feed/
+    category: Research
+    
 - name: Securonix Blog
   url: https://www.securonix.com/blog/feed/
   category: Research
